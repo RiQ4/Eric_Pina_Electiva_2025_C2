@@ -1,0 +1,248 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5093448c-0a59-433d-a42a-208c474fffcd")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "OPTO_INPUT_1"
+		(shape input)
+		(at 81.28 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f248aba-781a-4988-b646-1d9f6f220862")
+	)
+	(hierarchical_label "OPTO_INPUT_1"
+		(shape input)
+		(at 123.19 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b9dc9b1-f52e-4c82-a420-8704d403b65e")
+	)
+	(hierarchical_label "NPN_INPUT_1"
+		(shape input)
+		(at 81.28 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1bf24c06-531e-4f74-8bc7-2faf1409d22c")
+	)
+	(hierarchical_label "+10V_INPUT"
+		(shape input)
+		(at 81.28 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29cd5888-614c-41ba-b2ed-e5012ce7ea59")
+	)
+	(hierarchical_label "NPN_INPUT_0"
+		(shape input)
+		(at 81.28 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3419200b-a4d3-431e-a48a-aa5ffcef5c74")
+	)
+	(hierarchical_label "NPN_INPUT_0"
+		(shape input)
+		(at 123.19 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b897786-1d3f-436e-a006-0dd44b92c840")
+	)
+	(hierarchical_label "PNP_INPUT_0"
+		(shape input)
+		(at 123.19 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4db9c3df-34cd-43fa-8a24-c6a7975ff5c6")
+	)
+	(hierarchical_label "PNP_INPUT_0"
+		(shape input)
+		(at 81.28 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "531e7e47-a972-49fb-b4b3-d79da00027c9")
+	)
+	(hierarchical_label "+32V_INPUT"
+		(shape input)
+		(at 123.19 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5924398b-156b-4e74-ae5d-b44477c39645")
+	)
+	(hierarchical_label "PNP_INPUT_1"
+		(shape input)
+		(at 123.19 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a087ffa-d78c-4adf-bb51-3cc36acbf51e")
+	)
+	(hierarchical_label "NPN_INPUT_1"
+		(shape input)
+		(at 123.19 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b07ac10-f264-46f4-9534-17d1a071cc60")
+	)
+	(hierarchical_label "OPTO_INPUT_0"
+		(shape input)
+		(at 81.28 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e3e893b-2073-454f-b96f-f2d0829c8474")
+	)
+	(hierarchical_label "PNP_INPUT_1"
+		(shape input)
+		(at 81.28 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63c4a827-7f1f-4102-9f58-cb20064e25ca")
+	)
+	(hierarchical_label "+10V_INPUT"
+		(shape input)
+		(at 123.19 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ddadf07-d879-4d8a-9528-76114e4610c2")
+	)
+	(hierarchical_label "OPTO_INPUT_0"
+		(shape input)
+		(at 123.19 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a965501a-8d5e-43df-83af-29e3e57846d8")
+	)
+	(hierarchical_label "mA_INPUT"
+		(shape input)
+		(at 81.28 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb459113-3ec9-416b-a231-0b519529f0c6")
+	)
+	(hierarchical_label "+32V_INPUT"
+		(shape input)
+		(at 81.28 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f481a56f-9ff5-465b-a57e-da4cd101a4f1")
+	)
+	(hierarchical_label "mA_INPUT"
+		(shape input)
+		(at 123.19 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8691926-2955-4ba4-9bd7-117f135f3bc0")
+	)
+	(sheet
+		(at 26.67 26.67)
+		(size 36.83 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8ab7d9d8-a14c-43b1-bf79-ac7dfdaef76f")
+		(property "Sheetname" "PSU"
+			(at 26.67 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PSU.kicad_sch"
+			(at 26.67 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a"
+					(page "3")
+				)
+			)
+		)
+	)
+)
