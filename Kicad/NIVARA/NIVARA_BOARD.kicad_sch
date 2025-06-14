@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "79211f91-921e-49f0-88cd-51639dd602f8")
+	(uuid "260c67ec-ba79-4e18-ab36-7dd062089885")
 	(paper "USLedger")
 	(title_block
 		(title "NIVARA")
@@ -33,6 +33,17 @@
 		)
 		(uuid "1bf24c06-531e-4f74-8bc7-2faf1409d22c")
 	)
+	(hierarchical_label "PNP_DOUTPUT_1"
+		(shape output)
+		(at 123.19 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1dfbeae8-b3f5-4497-9daa-d12f07ed6c09")
+	)
 	(hierarchical_label "+10V_AINPUT"
 		(shape input)
 		(at 81.28 88.9 0)
@@ -44,6 +55,17 @@
 		)
 		(uuid "29cd5888-614c-41ba-b2ed-e5012ce7ea59")
 	)
+	(hierarchical_label "~{RUN}{slash}STOP"
+		(shape input)
+		(at 81.28 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31cb572c-4679-4436-957d-58af825d4994")
+	)
 	(hierarchical_label "NPN_DINPUT_0"
 		(shape input)
 		(at 81.28 62.23 0)
@@ -54,6 +76,17 @@
 			(justify left)
 		)
 		(uuid "3419200b-a4d3-431e-a48a-aa5ffcef5c74")
+	)
+	(hierarchical_label "PNP_DOUTPUT_0"
+		(shape output)
+		(at 123.19 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "387b56bf-0020-424f-b4ff-37a3d835631b")
 	)
 	(hierarchical_label "RL1_OUTPUT_NC"
 		(shape output)
@@ -77,7 +110,7 @@
 		)
 		(uuid "531e7e47-a972-49fb-b4b3-d79da00027c9")
 	)
-	(hierarchical_label "RS485_D+"
+	(hierarchical_label "RS485_A"
 		(shape bidirectional)
 		(at 123.19 106.68 0)
 		(effects
@@ -154,9 +187,9 @@
 		)
 		(uuid "9b4ca336-445e-4758-b391-2bd0c19bdd83")
 	)
-	(hierarchical_label "RS485_D-"
+	(hierarchical_label "RS485_B"
 		(shape bidirectional)
-		(at 123.19 110.49 0)
+		(at 123.19 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -164,6 +197,17 @@
 			(justify left)
 		)
 		(uuid "a965501a-8d5e-43df-83af-29e3e57846d8")
+	)
+	(hierarchical_label "NPN_DOUTPUT_0"
+		(shape output)
+		(at 123.19 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aeee5e0b-27a0-499c-87dd-a91f766e0bc8")
 	)
 	(hierarchical_label "RL2_OUTPUT_NO"
 		(shape output)
@@ -187,6 +231,17 @@
 		)
 		(uuid "cb459113-3ec9-416b-a231-0b519529f0c6")
 	)
+	(hierarchical_label "NPN_DOUTPUT_1"
+		(shape output)
+		(at 123.19 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ccdcd7fa-e621-4894-ab3f-3c20889bcab8")
+	)
 	(hierarchical_label "RL2_OUTPUT_NC"
 		(shape output)
 		(at 123.19 77.47 0)
@@ -209,7 +264,7 @@
 		)
 		(uuid "f481a56f-9ff5-465b-a57e-da4cd101a4f1")
 	)
-	(hierarchical_label "mA_AINPUT"
+	(hierarchical_label "mA_AOUTPUT"
 		(shape output)
 		(at 123.19 93.98 0)
 		(effects

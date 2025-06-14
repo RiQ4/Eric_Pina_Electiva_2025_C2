@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "f0d969f1-e141-4e19-908c-009da9b16885")
+	(uuid "a23e00b9-90b1-4e1b-8f74-99087752448e")
 	(paper "A4")
 	(lib_symbols
 		(symbol "power:+3.3V"
