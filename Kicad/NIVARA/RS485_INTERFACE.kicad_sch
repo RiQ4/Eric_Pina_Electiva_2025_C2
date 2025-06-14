@@ -1,0 +1,52 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c598f9e5-ac1b-4a3e-bd6d-5579c1787fe4")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "UART_OUT"
+		(shape output)
+		(at 82.55 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f9afdb3-b453-4c62-836f-458e6fa36d81")
+	)
+	(hierarchical_label "RS485_A"
+		(shape bidirectional)
+		(at 156.21 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "12b1f7c9-7f2f-40cb-93ac-d1c28f6f3224")
+	)
+	(hierarchical_label "UART_IN"
+		(shape input)
+		(at 82.55 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9de0f9c2-67d0-43c5-82cc-7cf0a2c9d038")
+	)
+	(hierarchical_label "RS485_B"
+		(shape bidirectional)
+		(at 156.21 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b705b3ea-2db5-4ac7-bf16-6a529c457d97")
+	)
+)

@@ -419,6 +419,10 @@
     [
       "8ab7d9d8-a14c-43b1-bf79-ac7dfdaef76f",
       "PSU"
+    ],
+    [
+      "43a112db-786f-42fb-8db3-67286b51ed8f",
+      "RS485_INTERFACE"
     ]
   ],
   "text_variables": {}
