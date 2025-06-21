@@ -2353,7 +2353,7 @@
 				(justify right)
 			)
 		)
-		(pin "UART_IN" input
+		(pin "UART_TX" input
 			(at 278.13 64.77 180)
 			(uuid "4d549351-c43c-48fb-b9e8-d8a1178c923c")
 			(effects
@@ -2363,9 +2363,19 @@
 				(justify left)
 			)
 		)
-		(pin "UART_OUT" output
+		(pin "UART_RX" output
 			(at 278.13 67.31 180)
 			(uuid "1b5a28c5-1aa4-4680-add4-c9ac0191b19b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{TRANSMIT}{slash}RECEIVE" input
+			(at 278.13 69.85 180)
+			(uuid "0fa72601-074f-45e6-b286-20944f92088a")
 			(effects
 				(font
 					(size 1.27 1.27)
