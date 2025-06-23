@@ -624,6 +624,10 @@
     [
       "43a112db-786f-42fb-8db3-67286b51ed8f",
       "RS485_INTERFACE"
+    ],
+    [
+      "86b88fb6-54fe-4cca-9b3c-121214f029ac",
+      "RELAY_INTERFACE"
     ]
   ],
   "text_variables": {}

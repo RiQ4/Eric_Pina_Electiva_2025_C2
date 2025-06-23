@@ -1366,6 +1366,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 107.95) (xy 332.74 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "578b79e6-3dc6-4d6d-9ea9-a2eb4e514fc7")
+	)
+	(wire
+		(pts
 			(xy 165.1 49.53) (xy 165.1 52.07)
 		)
 		(stroke
@@ -1396,6 +1406,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 97.79) (xy 332.74 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c31691-79b9-4990-a047-0c2914747263")
+	)
+	(wire
+		(pts
 			(xy 160.02 64.77) (xy 165.1 64.77)
 		)
 		(stroke
@@ -1413,6 +1433,16 @@
 			(type default)
 		)
 		(uuid "a9dd1fde-ee4c-4661-b9c9-70f013f8e0d7")
+	)
+	(wire
+		(pts
+			(xy 328.93 87.63) (xy 332.74 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abbedefc-820b-4dae-a998-a37f294182d5")
 	)
 	(wire
 		(pts
@@ -1436,6 +1466,26 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 92.71) (xy 332.74 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0d60113-31f5-44ce-a072-a9e6ebf641ae")
+	)
+	(wire
+		(pts
+			(xy 328.93 113.03) (xy 332.74 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9290084-76fe-4f5a-8046-1a1da3aee71d")
+	)
+	(wire
+		(pts
 			(xy 260.35 67.31) (xy 278.13 67.31)
 		)
 		(stroke
@@ -1443,6 +1493,16 @@
 			(type default)
 		)
 		(uuid "f87c6711-43e1-4a33-9b29-7a7d6a658949")
+	)
+	(wire
+		(pts
+			(xy 328.93 102.87) (xy 332.74 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fece8424-e2c5-49ef-b2d7-6284746289fc")
 	)
 	(hierarchical_label "OPTO_DINPUT_1"
 		(shape input)
@@ -1523,7 +1583,7 @@
 	)
 	(hierarchical_label "RL1_OUTPUT_NC"
 		(shape output)
-		(at 123.19 62.23 0)
+		(at 332.74 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1556,7 +1616,7 @@
 	)
 	(hierarchical_label "RL1_OUTPUT_NO"
 		(shape output)
-		(at 123.19 67.31 0)
+		(at 332.74 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1589,7 +1649,7 @@
 	)
 	(hierarchical_label "RL2_COM"
 		(shape passive)
-		(at 123.19 87.63 0)
+		(at 332.74 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1611,7 +1671,7 @@
 	)
 	(hierarchical_label "RL1_COM"
 		(shape passive)
-		(at 123.19 72.39 0)
+		(at 332.74 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1644,7 +1704,7 @@
 	)
 	(hierarchical_label "RL2_OUTPUT_NO"
 		(shape output)
-		(at 123.19 82.55 0)
+		(at 332.74 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1677,7 +1737,7 @@
 	)
 	(hierarchical_label "RL2_OUTPUT_NC"
 		(shape output)
-		(at 123.19 77.47 0)
+		(at 332.74 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2387,6 +2447,148 @@
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 295.91 85.09)
+		(size 33.02 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "86b88fb6-54fe-4cca-9b3c-121214f029ac")
+		(property "Sheetname" "RELAY_INTERFACE"
+			(at 295.91 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RELAY_INTERFACE.kicad_sch"
+			(at 295.91 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RL1_COM" passive
+			(at 328.93 97.79 0)
+			(uuid "dd33dd7f-7074-411e-91a5-8936f4e67a9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RL1_EN" input
+			(at 295.91 92.71 180)
+			(uuid "631dfe93-5292-4ca5-850a-8d77f64709b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RL1_OUTPUT_NC" output
+			(at 328.93 87.63 0)
+			(uuid "51f4d3ca-77b4-44fd-a1f5-e721b0c51ac9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RL1_OUTPUT_NO" output
+			(at 328.93 92.71 0)
+			(uuid "e49d1ff0-a959-49d0-b78a-d79073575fa9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RL2_COM" passive
+			(at 328.93 113.03 0)
+			(uuid "b8750330-2fa9-4a07-afc1-7d23944c5326")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RL2_EN" input
+			(at 295.91 107.95 180)
+			(uuid "563663a8-22cf-485f-8bc3-4c53741ed1ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RL2_OUTPUT_NC" output
+			(at 328.93 102.87 0)
+			(uuid "5fa1601c-7c9f-40f0-bd43-e8ce0439ca26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RL2_OUTPUT_NO" output
+			(at 328.93 107.95 0)
+			(uuid "16527eb7-a30d-4ac2-ba82-fc4f5c84aff0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ST1" output
+			(at 295.91 95.25 180)
+			(uuid "060e8481-1e18-48dc-8919-b22b524de6fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ST2" output
+			(at 295.91 110.49 180)
+			(uuid "a10975d9-0966-49f1-ae1a-3e3dd4f61985")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a"
+					(page "5")
 				)
 			)
 		)
