@@ -1346,6 +1346,26 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 110.49) (xy 273.05 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f2427e4-5241-499a-9b12-f3fd889f684f")
+	)
+	(wire
+		(pts
+			(xy 278.13 114.3) (xy 270.51 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32486f72-8c27-49ae-a018-e7fdb3534bab")
+	)
+	(wire
+		(pts
 			(xy 165.1 59.69) (xy 165.1 64.77)
 		)
 		(stroke
@@ -1366,7 +1386,17 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 107.95) (xy 332.74 107.95)
+			(xy 273.05 110.49) (xy 273.05 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "539ae98e-873a-449c-a587-7faa9aff54c9")
+	)
+	(wire
+		(pts
+			(xy 311.15 130.81) (xy 314.96 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1406,13 +1436,43 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 97.79) (xy 332.74 97.79)
+			(xy 311.15 120.65) (xy 314.96 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "70c31691-79b9-4990-a047-0c2914747263")
+	)
+	(wire
+		(pts
+			(xy 276.86 90.17) (xy 260.35 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "753d8e62-de5e-45d4-8eb9-674aaec5343b")
+	)
+	(wire
+		(pts
+			(xy 270.51 114.3) (xy 270.51 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a2a9f2c-95da-4555-803a-2e9d4bcb7be0")
+	)
+	(wire
+		(pts
+			(xy 306.07 99.06) (xy 312.42 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c353b7d-3301-4c51-80d2-ee07f2d65eeb")
 	)
 	(wire
 		(pts
@@ -1426,6 +1486,36 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 82.55) (xy 260.35 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "956d9fea-04e2-49d7-a744-0a6c2210d50c")
+	)
+	(wire
+		(pts
+			(xy 270.51 87.63) (xy 260.35 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a04f713c-67fa-4058-8270-99fa5a1968a6")
+	)
+	(wire
+		(pts
+			(xy 306.07 93.98) (xy 312.42 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0b0dafc-7d77-4983-9504-ac349e825bc7")
+	)
+	(wire
+		(pts
 			(xy 214.63 140.97) (xy 214.63 144.78)
 		)
 		(stroke
@@ -1436,7 +1526,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 87.63) (xy 332.74 87.63)
+			(xy 311.15 110.49) (xy 314.96 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1456,6 +1546,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 85.09) (xy 260.35 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7025e92-aba1-4d54-925c-644ff2b6b0c7")
+	)
+	(wire
+		(pts
 			(xy 160.02 49.53) (xy 160.02 52.07)
 		)
 		(stroke
@@ -1466,7 +1566,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 92.71) (xy 332.74 92.71)
+			(xy 311.15 115.57) (xy 314.96 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1476,13 +1576,43 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 113.03) (xy 332.74 113.03)
+			(xy 276.86 96.52) (xy 276.86 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d24aa16a-3074-4774-8dde-da10f1ef87fd")
+	)
+	(wire
+		(pts
+			(xy 278.13 96.52) (xy 276.86 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d999d7ac-235e-410a-93f3-1067b20fd08b")
+	)
+	(wire
+		(pts
+			(xy 311.15 135.89) (xy 314.96 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e9290084-76fe-4f5a-8046-1a1da3aee71d")
+	)
+	(wire
+		(pts
+			(xy 306.07 82.55) (xy 309.88 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f458d669-fe0f-49ae-98bd-b867b57adaee")
 	)
 	(wire
 		(pts
@@ -1496,7 +1626,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 102.87) (xy 332.74 102.87)
+			(xy 311.15 125.73) (xy 314.96 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1561,7 +1691,7 @@
 	)
 	(hierarchical_label "NPN_DINPUT_0"
 		(shape input)
-		(at 81.28 62.23 0)
+		(at 45.72 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1583,7 +1713,7 @@
 	)
 	(hierarchical_label "RL1_OUTPUT_NC"
 		(shape output)
-		(at 332.74 87.63 0)
+		(at 314.96 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1616,7 +1746,7 @@
 	)
 	(hierarchical_label "RL1_OUTPUT_NO"
 		(shape output)
-		(at 332.74 92.71 0)
+		(at 314.96 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1649,7 +1779,7 @@
 	)
 	(hierarchical_label "RL2_COM"
 		(shape passive)
-		(at 332.74 113.03 0)
+		(at 314.96 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1671,7 +1801,7 @@
 	)
 	(hierarchical_label "RL1_COM"
 		(shape passive)
-		(at 332.74 97.79 0)
+		(at 314.96 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1704,7 +1834,7 @@
 	)
 	(hierarchical_label "RL2_OUTPUT_NO"
 		(shape output)
-		(at 332.74 107.95 0)
+		(at 314.96 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1715,7 +1845,7 @@
 	)
 	(hierarchical_label "mA_AINPUT"
 		(shape input)
-		(at 81.28 93.98 0)
+		(at 309.88 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1737,7 +1867,7 @@
 	)
 	(hierarchical_label "RL2_OUTPUT_NC"
 		(shape output)
-		(at 332.74 102.87 0)
+		(at 314.96 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1745,6 +1875,17 @@
 			(justify left)
 		)
 		(uuid "d5d6d7e1-385e-4a85-a5e4-be235f5d58b7")
+	)
+	(hierarchical_label "mA_AOUTPUT-"
+		(shape output)
+		(at 312.42 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7c9f036-73a5-4823-9b7f-c707e892ae3f")
 	)
 	(hierarchical_label "+32V_AINPUT"
 		(shape input)
@@ -1757,9 +1898,9 @@
 		)
 		(uuid "f481a56f-9ff5-465b-a57e-da4cd101a4f1")
 	)
-	(hierarchical_label "mA_AOUTPUT"
+	(hierarchical_label "mA_AOUTPUT+"
 		(shape output)
-		(at 121.92 62.23 0)
+		(at 312.42 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1778,7 +1919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e916813-5cbd-47ca-b46a-886e33ff44d3")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR11"
 			(at 160.02 43.18 0)
 			(effects
 				(font
@@ -1828,7 +1969,7 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a"
-					(reference "#PWR011")
+					(reference "#PWR11")
 					(unit 1)
 				)
 			)
@@ -1914,7 +2055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fff2f3a-c8ac-4e2a-830f-8619968b8f9a")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR9"
 			(at 214.63 151.13 0)
 			(effects
 				(font
@@ -1964,7 +2105,7 @@
 		(instances
 			(project ""
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a"
-					(reference "#PWR09")
+					(reference "#PWR9")
 					(unit 1)
 				)
 			)
@@ -2050,7 +2191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "732a2aa4-2e45-47bd-ae0a-07f4e334d480")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR8"
 			(at 214.63 58.42 0)
 			(effects
 				(font
@@ -2100,7 +2241,7 @@
 		(instances
 			(project ""
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a"
-					(reference "#PWR08")
+					(reference "#PWR8")
 					(unit 1)
 				)
 			)
@@ -2303,7 +2444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7814c09-9f65-4fbb-98bf-dc2e92da8622")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR10"
 			(at 165.1 53.34 0)
 			(effects
 				(font
@@ -2353,7 +2494,7 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a"
-					(reference "#PWR010")
+					(reference "#PWR10")
 					(unit 1)
 				)
 			)
@@ -2452,7 +2593,7 @@
 		)
 	)
 	(sheet
-		(at 295.91 85.09)
+		(at 278.13 107.95)
 		(size 33.02 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2468,7 +2609,7 @@
 		)
 		(uuid "86b88fb6-54fe-4cca-9b3c-121214f029ac")
 		(property "Sheetname" "RELAY_INTERFACE"
-			(at 295.91 84.3784 0)
+			(at 278.13 107.2384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,7 +2618,7 @@
 			)
 		)
 		(property "Sheetfile" "RELAY_INTERFACE.kicad_sch"
-			(at 295.91 116.1546 0)
+			(at 278.13 139.0146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2486,7 +2627,7 @@
 			)
 		)
 		(pin "RL1_COM" passive
-			(at 328.93 97.79 0)
+			(at 311.15 120.65 0)
 			(uuid "dd33dd7f-7074-411e-91a5-8936f4e67a9b")
 			(effects
 				(font
@@ -2496,7 +2637,7 @@
 			)
 		)
 		(pin "RL1_EN" input
-			(at 295.91 92.71 180)
+			(at 278.13 110.49 180)
 			(uuid "631dfe93-5292-4ca5-850a-8d77f64709b8")
 			(effects
 				(font
@@ -2506,7 +2647,7 @@
 			)
 		)
 		(pin "RL1_OUTPUT_NC" output
-			(at 328.93 87.63 0)
+			(at 311.15 110.49 0)
 			(uuid "51f4d3ca-77b4-44fd-a1f5-e721b0c51ac9")
 			(effects
 				(font
@@ -2516,7 +2657,7 @@
 			)
 		)
 		(pin "RL1_OUTPUT_NO" output
-			(at 328.93 92.71 0)
+			(at 311.15 115.57 0)
 			(uuid "e49d1ff0-a959-49d0-b78a-d79073575fa9")
 			(effects
 				(font
@@ -2526,7 +2667,7 @@
 			)
 		)
 		(pin "RL2_COM" passive
-			(at 328.93 113.03 0)
+			(at 311.15 135.89 0)
 			(uuid "b8750330-2fa9-4a07-afc1-7d23944c5326")
 			(effects
 				(font
@@ -2536,7 +2677,7 @@
 			)
 		)
 		(pin "RL2_EN" input
-			(at 295.91 107.95 180)
+			(at 278.13 114.3 180)
 			(uuid "563663a8-22cf-485f-8bc3-4c53741ed1ad")
 			(effects
 				(font
@@ -2546,7 +2687,7 @@
 			)
 		)
 		(pin "RL2_OUTPUT_NC" output
-			(at 328.93 102.87 0)
+			(at 311.15 125.73 0)
 			(uuid "5fa1601c-7c9f-40f0-bd43-e8ce0439ca26")
 			(effects
 				(font
@@ -2556,7 +2697,7 @@
 			)
 		)
 		(pin "RL2_OUTPUT_NO" output
-			(at 328.93 107.95 0)
+			(at 311.15 130.81 0)
 			(uuid "16527eb7-a30d-4ac2-ba82-fc4f5c84aff0")
 			(effects
 				(font
@@ -2565,19 +2706,61 @@
 				(justify right)
 			)
 		)
-		(pin "ST1" output
-			(at 295.91 95.25 180)
-			(uuid "060e8481-1e18-48dc-8919-b22b524de6fe")
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 278.13 78.74)
+		(size 27.94 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "89d29688-da71-49bb-a25b-d6f160f4d0d4")
+		(property "Sheetname" "mA_INTERFACE_IN"
+			(at 278.13 78.0284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
-		(pin "ST2" output
-			(at 295.91 110.49 180)
-			(uuid "a10975d9-0966-49f1-ae1a-3e3dd4f61985")
+		(property "Sheetfile" "mA_INTERFACE_IN.kicad_sch"
+			(at 278.13 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "mA_IN" input
+			(at 306.07 82.55 0)
+			(uuid "053072f9-e476-4e57-8280-80e98bff5fb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "mA_READ" output
+			(at 278.13 82.55 180)
+			(uuid "6d5ac067-132c-400b-9620-dd7e247ec56f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2588,7 +2771,7 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a"
-					(page "5")
+					(page "8")
 				)
 			)
 		)
@@ -2631,6 +2814,120 @@
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 278.13 92.71)
+		(size 27.94 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a4009674-06bb-4fe0-bcda-ed9945d86716")
+		(property "Sheetname" "mA_INTERFACE_OUT"
+			(at 278.13 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mA_INTERFACE.kicad_sch"
+			(at 278.13 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "mA_IN" input
+			(at 278.13 96.52 180)
+			(uuid "635a3488-5118-45d7-8431-2c1b1032fd8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "mA_OUT+" output
+			(at 306.07 93.98 0)
+			(uuid "30d4113e-b283-4021-87e7-0766bd16f9b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "mA_OUT-" output
+			(at 306.07 99.06 0)
+			(uuid "df446f63-dda8-4b64-a384-0882ce5a4ef9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 139.7)
+		(size 26.67 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d622ea12-fe2d-4cf1-abd0-941db96d5f54")
+		(property "Sheetname" "NPN_IN_Mod"
+			(at 66.04 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NPN_IN_Mod.kicad_sch"
+			(at 66.04 164.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a"
+					(page "6")
 				)
 			)
 		)

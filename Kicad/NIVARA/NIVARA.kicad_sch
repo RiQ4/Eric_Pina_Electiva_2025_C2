@@ -12988,7 +12988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e53e5bd-56a3-4d24-97fb-11a08909ca79")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR7"
 			(at 140.97 30.48 0)
 			(effects
 				(font
@@ -13038,7 +13038,7 @@
 		(instances
 			(project ""
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
-					(reference "#PWR07")
+					(reference "#PWR7")
 					(unit 1)
 				)
 			)
@@ -13123,7 +13123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2456bf3a-0e0b-4bcd-b197-696d38d5f7d6")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR5"
 			(at 184.15 63.5 0)
 			(effects
 				(font
@@ -13174,7 +13174,7 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
-					(reference "#PWR05")
+					(reference "#PWR5")
 					(unit 1)
 				)
 			)
@@ -13410,7 +13410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "972653f8-a29d-42fd-8daa-0161d6fa6dd7")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR3"
 			(at 111.76 87.63 0)
 			(effects
 				(font
@@ -13461,7 +13461,7 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
-					(reference "#PWR03")
+					(reference "#PWR3")
 					(unit 1)
 				)
 			)
@@ -13625,7 +13625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be999b06-0237-4b1a-827b-171738b6de21")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR6"
 			(at 140.97 38.1 0)
 			(effects
 				(font
@@ -13675,7 +13675,7 @@
 		(instances
 			(project ""
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
-					(reference "#PWR06")
+					(reference "#PWR6")
 					(unit 1)
 				)
 			)
@@ -13827,7 +13827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdda0e28-d54a-450e-9667-81f9256199ae")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR4"
 			(at 184.15 53.34 0)
 			(effects
 				(font
@@ -13878,7 +13878,7 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
-					(reference "#PWR04")
+					(reference "#PWR4")
 					(unit 1)
 				)
 			)
@@ -13963,7 +13963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecc413b2-781e-420f-b418-d27dba05abb0")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR2"
 			(at 111.76 72.39 0)
 			(effects
 				(font
@@ -14014,7 +14014,7 @@
 		(instances
 			(project ""
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
-					(reference "#PWR02")
+					(reference "#PWR2")
 					(unit 1)
 				)
 			)
@@ -14181,7 +14181,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WIFI-BT"
+		(property "Value" "Antenna"
 			(at 161.29 32.3849 0)
 			(effects
 				(font

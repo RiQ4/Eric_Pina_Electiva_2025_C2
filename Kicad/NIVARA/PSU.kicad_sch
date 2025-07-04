@@ -450,6 +450,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers
 				(hide yes)
@@ -636,7 +760,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Switching:AP63203WU"
+		(symbol "Regulator_Switching:AP63200WU"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -648,7 +772,7 @@
 					)
 				)
 			)
-			(property "Value" "AP63203WU"
+			(property "Value" "AP63200WU"
 				(at 2.54 6.35 0)
 				(effects
 					(font
@@ -674,7 +798,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6"
+			(property "Description" "2A, 500kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6"
 				(at 0 0 0)
 				(effects
 					(font
@@ -701,7 +825,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AP63203WU_0_1"
+			(symbol "AP63200WU_0_1"
 				(rectangle
 					(start -7.62 5.08)
 					(end 7.62 -5.08)
@@ -714,7 +838,7 @@
 					)
 				)
 			)
-			(symbol "AP63203WU_1_1"
+			(symbol "AP63200WU_1_1"
 				(pin power_in line
 					(at -10.16 2.54 0)
 					(length 2.54)
@@ -1178,9 +1302,19 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "NOTE:\nSEE DATASHEET FOR COMPONENT VALUES!!!!"
+	(text "DO NOT MOUNT FOR AP63203:\nC6\nR3\nSUBSITUTE:\nR2 -> 0Ohm"
 		(exclude_from_sim no)
-		(at 55.372 66.04 0)
+		(at 49.784 67.818 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "326341b0-ca33-4bd5-8292-51a2e4f3b790")
+	)
+	(text "AP63200/AP63201\nOR\nAP63203"
+		(exclude_from_sim no)
+		(at 48.514 27.432 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1195,6 +1329,12 @@
 		(uuid "1a874b69-72a3-4ab0-b174-ed3ed5dbf236")
 	)
 	(junction
+		(at 91.44 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cc453ee-b4fb-4d48-b6d1-696aecd5ce4b")
+	)
+	(junction
 		(at 31.75 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1205,6 +1345,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c943c3e-e576-458d-b130-43e1ca8fe317")
+	)
+	(junction
+		(at 73.66 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "678b11ba-1121-4c8e-8f3c-a8a6c86a8179")
 	)
 	(junction
 		(at 36.83 40.64)
@@ -1225,10 +1371,42 @@
 		(uuid "8edcd765-bb90-40bc-8d02-5568b1f44d5c")
 	)
 	(junction
+		(at 83.82 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91d97972-606c-45ff-89ee-d4fe463e3add")
+	)
+	(junction
+		(at 83.82 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5d6e0d9-628a-44a8-af3a-c2362d55c409")
+	)
+	(junction
 		(at 87.63 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d820544d-ea4a-4ef1-9234-072555ebcaa3")
+	)
+	(wire
+		(pts
+			(xy 83.82 60.96) (xy 83.82 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0760e547-54e9-40d7-b312-e302cb26c105")
+	)
+	(wire
+		(pts
+			(xy 73.66 60.96) (xy 83.82 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc969ff-50c6-447d-af16-b5e40fd642b0")
 	)
 	(wire
 		(pts
@@ -1312,6 +1490,26 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 45.72) (xy 73.66 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36c1fc0f-ff92-4803-b1a3-fd6b93e201ef")
+	)
+	(wire
+		(pts
+			(xy 73.66 49.53) (xy 73.66 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3924eb0e-aa26-4893-886a-f55121f0e62c")
+	)
+	(wire
+		(pts
 			(xy 71.12 40.64) (xy 74.93 40.64)
 		)
 		(stroke
@@ -1322,13 +1520,23 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 53.34) (xy 91.44 54.61)
+			(xy 91.44 53.34) (xy 91.44 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3f05bcdb-1985-48c6-bcb6-4533ab75e7c6")
+	)
+	(wire
+		(pts
+			(xy 73.66 45.72) (xy 73.66 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41500646-f5c2-42ee-9ac2-2b89e1d49ef8")
 	)
 	(wire
 		(pts
@@ -1342,7 +1550,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 45.72) (xy 83.82 40.64)
+			(xy 83.82 40.64) (xy 83.82 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1359,6 +1567,16 @@
 			(type default)
 		)
 		(uuid "53735e3d-8d22-4944-b41a-8458e3d9877d")
+	)
+	(wire
+		(pts
+			(xy 73.66 49.53) (xy 74.93 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f0e4002-80db-409c-a9d1-04fa1ba013c5")
 	)
 	(wire
 		(pts
@@ -1382,6 +1600,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 49.53) (xy 83.82 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6af3b6e0-908c-401e-a2c5-e4bdd685e923")
+	)
+	(wire
+		(pts
 			(xy 93.98 53.34) (xy 91.44 53.34)
 		)
 		(stroke
@@ -1389,6 +1617,26 @@
 			(type default)
 		)
 		(uuid "6d26bc25-670c-4b30-977d-5c6e2fcc2d57")
+	)
+	(wire
+		(pts
+			(xy 82.55 49.53) (xy 83.82 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dbb7e4d-761d-4057-a1e8-81d0fb19f45c")
+	)
+	(wire
+		(pts
+			(xy 83.82 69.85) (xy 91.44 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7afa315e-8dcb-4297-83ab-47100cf93da9")
 	)
 	(wire
 		(pts
@@ -1472,6 +1720,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 69.85) (xy 91.44 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3abeda8-0f30-4a71-a956-11d75347e062")
+	)
+	(wire
+		(pts
 			(xy 93.98 50.8) (xy 93.98 53.34)
 		)
 		(stroke
@@ -1492,16 +1750,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 45.72) (xy 83.82 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebb2ba1d-3e4e-4a0b-a4ab-2ed036572cd2")
-	)
-	(wire
-		(pts
 			(xy 91.44 39.37) (xy 91.44 40.64)
 		)
 		(stroke
@@ -1509,6 +1757,16 @@
 			(type default)
 		)
 		(uuid "ef999417-41e8-4131-b5c9-149c58993f4d")
+	)
+	(wire
+		(pts
+			(xy 83.82 59.69) (xy 83.82 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa700c05-1dd3-43e2-bcd7-63619be8ad75")
 	)
 	(image
 		(at 146.05 46.99)
@@ -2101,7 +2359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e21f61b-6a4e-47b2-a186-56f17e4660ce")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR13"
 			(at 48.26 59.69 0)
 			(effects
 				(font
@@ -2151,7 +2409,7 @@
 		(instances
 			(project ""
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/8ab7d9d8-a14c-43b1-bf79-ac7dfdaef76f"
-					(reference "#PWR013")
+					(reference "#PWR13")
 					(unit 1)
 				)
 			)
@@ -2159,7 +2417,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 54.61 0)
+		(at 91.44 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2167,8 +2425,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e6f663a-8e71-44a2-86aa-0c632cd76af2")
-		(property "Reference" "#PWR015"
-			(at 91.44 60.96 0)
+		(property "Reference" "#PWR15"
+			(at 91.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2177,7 +2435,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 59.69 0)
+			(at 91.44 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2185,7 +2443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 54.61 0)
+			(at 91.44 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2194,7 +2452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 54.61 0)
+			(at 91.44 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,7 +2461,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 54.61 0)
+			(at 91.44 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2217,7 +2475,74 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/8ab7d9d8-a14c-43b1-bf79-ac7dfdaef76f"
-					(reference "#PWR015")
+					(reference "#PWR15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 78.74 49.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12d82860-c42c-4288-bc21-4f130d7cb8e0")
+		(property "Reference" "C6"
+			(at 75.946 47.752 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 78.74 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 50.4952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 78.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9c81e75-97f0-4566-8d09-bfed0145f83f")
+		)
+		(pin "2"
+			(uuid "8f92ba28-c89d-429c-bade-4a0a6ca9fea7")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/8ab7d9d8-a14c-43b1-bf79-ac7dfdaef76f"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -2241,12 +2566,11 @@
 			)
 		)
 		(property "Value" "C"
-			(at 82.55 46.99 90)
+			(at 90.17 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2292,6 +2616,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Switching:AP63200WU")
+		(at 48.26 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3969479d-123e-4143-aebc-6d5e5421000c")
+		(property "Reference" "U2"
+			(at 48.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP63200WU"
+			(at 48.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 48.26 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
+			(at 48.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2A, 500kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6"
+			(at 48.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afa471e5-cf7b-46dd-ac54-1b21c7d27114")
+		)
+		(pin "4"
+			(uuid "a1340555-12af-4e75-93d9-f2d0ef21e8fa")
+		)
+		(pin "5"
+			(uuid "03899440-26a8-4a5c-8b68-29c3def09a82")
+		)
+		(pin "2"
+			(uuid "ebcd4919-b36d-4b0e-84c8-02352be52bf0")
+		)
+		(pin "6"
+			(uuid "3dcb7333-582b-45e5-94c2-20d1b5bea4d8")
+		)
+		(pin "3"
+			(uuid "706907ea-48b7-4b11-9dd4-8b5aaa78d895")
+		)
+		(instances
+			(project ""
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/8ab7d9d8-a14c-43b1-bf79-ac7dfdaef76f"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 91.44 29.21 0)
 		(unit 1)
@@ -2301,7 +2705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cc0b3c3-075a-413c-992b-b165c019a428")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR1"
 			(at 91.44 33.02 0)
 			(effects
 				(font
@@ -2351,7 +2755,147 @@
 		(instances
 			(project ""
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/8ab7d9d8-a14c-43b1-bf79-ac7dfdaef76f"
-					(reference "#PWR01")
+					(reference "#PWR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 83.82 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3efb581d-de94-4c4e-9548-0819a151d7da")
+		(property "Reference" "R3"
+			(at 86.36 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 86.36 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.042 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 83.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2bf610ab-98ca-4ab8-bcdb-5ae13d362a40")
+		)
+		(pin "1"
+			(uuid "b6167cb1-2b78-46a1-afcf-06cf460b85a7")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/8ab7d9d8-a14c-43b1-bf79-ac7dfdaef76f"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 83.82 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cfa24c9-1cfc-4c69-942e-f281d1751d42")
+		(property "Reference" "R2"
+			(at 86.36 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 86.36 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.042 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 83.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "25b52e42-d76a-4e42-995a-bb72a0bf70a2")
+		)
+		(pin "1"
+			(uuid "1ec04b18-66ec-4f48-b381-6d81635d756c")
+		)
+		(instances
+			(project ""
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/8ab7d9d8-a14c-43b1-bf79-ac7dfdaef76f"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2367,7 +2911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "502b9767-6d19-4662-a3c9-ba91b2c0cc18")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR14"
 			(at 31.75 59.69 0)
 			(effects
 				(font
@@ -2417,7 +2961,7 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/8ab7d9d8-a14c-43b1-bf79-ac7dfdaef76f"
-					(reference "#PWR014")
+					(reference "#PWR14")
 					(unit 1)
 				)
 			)
@@ -2446,7 +2990,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2501,7 +3044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbaa511f-a896-479a-827a-c75952dd9b4d")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR12"
 			(at 31.75 41.91 0)
 			(effects
 				(font
@@ -2551,7 +3094,7 @@
 		(instances
 			(project ""
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/8ab7d9d8-a14c-43b1-bf79-ac7dfdaef76f"
-					(reference "#PWR012")
+					(reference "#PWR12")
 					(unit 1)
 				)
 			)
@@ -2575,12 +3118,11 @@
 			)
 		)
 		(property "Value" "C"
-			(at 88.9 46.99 90)
+			(at 96.774 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2626,86 +3168,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:AP63203WU")
-		(at 48.26 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc96a062-2860-48b3-a460-4eaf06ba4e8b")
-		(property "Reference" "U2"
-			(at 48.26 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP63203WU"
-			(at 48.26 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-			(at 48.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
-			(at 48.26 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6"
-			(at 48.26 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "27185e81-fe95-4c48-9035-d4297d42bf08")
-		)
-		(pin "3"
-			(uuid "0bf383b8-4822-4604-bd92-dd561806b6ca")
-		)
-		(pin "5"
-			(uuid "05702a22-0f3c-4127-ab0c-ad226f3d440e")
-		)
-		(pin "6"
-			(uuid "a195bbee-7c9a-4c6c-88b3-e732be621160")
-		)
-		(pin "1"
-			(uuid "ce7be069-72dc-4b12-9334-8b51f582e320")
-		)
-		(pin "2"
-			(uuid "2cf7e9b5-2a0e-4cb5-923e-6ae945a9af47")
-		)
-		(instances
-			(project ""
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/8ab7d9d8-a14c-43b1-bf79-ac7dfdaef76f"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 31.75 46.99 180)
 		(unit 1)
@@ -2728,7 +3190,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2750,6 +3211,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 31.75 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 31.75 46.99 0)
 			(effects
 				(font

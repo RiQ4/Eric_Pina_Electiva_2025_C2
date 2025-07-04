@@ -628,6 +628,18 @@
     [
       "86b88fb6-54fe-4cca-9b3c-121214f029ac",
       "RELAY_INTERFACE"
+    ],
+    [
+      "d622ea12-fe2d-4cf1-abd0-941db96d5f54",
+      "NPN_IN_Mod"
+    ],
+    [
+      "a4009674-06bb-4fe0-bcda-ed9945d86716",
+      "mA_INTERFACE_OUT"
+    ],
+    [
+      "89d29688-da71-49bb-a25b-d6f160f4d0d4",
+      "mA_INTERFACE_IN"
     ]
   ],
   "text_variables": {}
