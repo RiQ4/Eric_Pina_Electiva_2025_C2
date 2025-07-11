@@ -640,6 +640,30 @@
     [
       "89d29688-da71-49bb-a25b-d6f160f4d0d4",
       "mA_INTERFACE_IN"
+    ],
+    [
+      "70c9f439-c648-496e-a774-7d3c213f4c72",
+      "NPN_OUT_INTERFACE"
+    ],
+    [
+      "2ac137b5-1347-46a5-b780-a606790c1a93",
+      "DRY_INPUT_INTERFACE"
+    ],
+    [
+      "addf1e1e-f652-4279-8cba-01ccd2e4a395",
+      "32V_AIN_INTERFACE"
+    ],
+    [
+      "8c13851c-1f51-45db-a0c3-d4fd67e1b6ee",
+      "10V_AIN_INTERFACE"
+    ],
+    [
+      "87e252e9-5bec-490a-94ca-676f9bdf9b34",
+      "NPN_IN_Mod1"
+    ],
+    [
+      "11a8222e-f360-40de-9c02-857da7131a56",
+      "VOLTAGE_AOUT_INTERFACE"
     ]
   ],
   "text_variables": {}

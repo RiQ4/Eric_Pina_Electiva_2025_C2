@@ -1,4 +1,4 @@
-25683320890579786
+25685074639536017
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -86086,6 +86086,13 @@ DGK VSSOP SO
 8
 8
 Package_SO
+Untitled
+
+
+0
+0
+0
+Package_SO
 VSO-40_7.6x15.4mm_P0.762mm
 VSO40: plastic very small outline package; 40 leads (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot158-1_po.pdf)
 SSOP 0.762
@@ -93912,19 +93919,19 @@ Resistor Radial_Power series Radial pin pitch 7.37mm 10W length 16.1mm width 9mm
 2
 2
 Riqi_Parts
-SOIC127P600X172-14N
-
-
-0
-14
-14
-Riqi_Parts
 YLPTEC RSM3485ECHT
 
 
 0
 8
 8
+Riqi_Parts
+eSOP-8
+
+
+0
+9
+9
 Rotary_Encoder
 RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
 Alps rotary encoder, EC11E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
