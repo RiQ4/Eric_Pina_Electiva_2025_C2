@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "31d813c0-3519-4fd5-a836-e3af338a3e67")
+	(uuid "e63b338f-bd90-4c52-970e-b80b54cdea6a")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:R"
@@ -661,7 +661,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VCC"
+		(symbol "power:GNDPWR"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -674,7 +674,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -682,8 +682,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "VCC"
-				(at 0 3.556 0)
+			(property "Value" "GNDPWR"
+				(at 0 -3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -691,7 +691,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -700,6 +700,15 @@
 				)
 			)
 			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -708,7 +717,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(property "ki_keywords" "global ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -717,19 +726,34 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VCC_0_1"
+			(symbol "GNDPWR_0_1"
 				(polyline
 					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
+						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -741,10 +765,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
 					)
 					(stroke
-						(width 0)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -753,10 +777,34 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
 					)
 					(stroke
-						(width 0)
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -764,9 +812,9 @@
 					)
 				)
 			)
-			(symbol "VCC_1_1"
+			(symbol "GNDPWR_1_1"
 				(pin power_in line
-					(at 0 0 90)
+					(at 0 0 270)
 					(length 0)
 					(name "~"
 						(effects
@@ -788,842 +836,974 @@
 		)
 	)
 	(junction
-		(at 137.16 130.81)
+		(at 143.51 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "17fb3a03-1e74-4ca3-ae9f-9ede7adeb6ca")
+		(uuid "251392dd-b0ba-4966-86f7-3b0f6bba7712")
 	)
 	(junction
-		(at 137.16 95.25)
+		(at 143.51 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bb019292-45bd-4871-9197-493c2c605e21")
+		(uuid "c87f85f3-b5f9-4d2f-b0e1-a4d97d890da7")
 	)
 	(wire
 		(pts
-			(xy 137.16 130.81) (xy 142.24 130.81)
+			(xy 140.97 88.9) (xy 143.51 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0a350830-0cc0-4f2a-a17c-87ef28f70240")
+		(uuid "113ed71f-eab6-47d0-ae62-05c3b50373a0")
 	)
 	(wire
 		(pts
-			(xy 102.87 95.25) (xy 109.22 95.25)
+			(xy 123.19 88.9) (xy 125.73 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0af8aba1-6da1-4412-a73e-b8464488487f")
+		(uuid "11e9d63d-050d-4965-a35b-70286ddd5109")
 	)
 	(wire
 		(pts
-			(xy 102.87 130.81) (xy 109.22 130.81)
+			(xy 140.97 128.27) (xy 142.24 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "489c056c-c93c-42c0-a07a-e21a7ff4237b")
+		(uuid "1bb3a43a-52ab-4b8b-bf10-077dcaad3301")
 	)
 	(wire
 		(pts
-			(xy 137.16 82.55) (xy 137.16 85.09)
+			(xy 124.46 93.98) (xy 125.73 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "496919ab-8d1a-4f7e-92c9-3fbed15b24d3")
+		(uuid "2d2b10dc-3a9d-41de-a4d4-09279585a612")
 	)
 	(wire
 		(pts
-			(xy 116.84 130.81) (xy 119.38 130.81)
+			(xy 140.97 123.19) (xy 143.51 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4cfc7a08-8044-457b-8ccb-961e49c41555")
+		(uuid "3525d4c9-4d31-4d6a-80cf-a2a60fdfebcf")
 	)
 	(wire
 		(pts
-			(xy 137.16 95.25) (xy 137.16 92.71)
+			(xy 143.51 88.9) (xy 143.51 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "57f63424-4dab-44a6-816c-12084a9adb5f")
+		(uuid "3c06f578-db1e-4b2d-90f8-2606ea5e9e41")
 	)
 	(wire
 		(pts
-			(xy 114.3 100.33) (xy 119.38 100.33)
+			(xy 143.51 123.19) (xy 143.51 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d795573-2562-4fb7-afd7-383f0c598040")
+		(uuid "4470587e-e4a2-420d-aad8-f6fef59862a8")
 	)
 	(wire
 		(pts
-			(xy 116.84 95.25) (xy 119.38 95.25)
+			(xy 124.46 128.27) (xy 125.73 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "774e46ef-fce7-49a2-8be6-b08815428ea8")
+		(uuid "47016aa5-9054-439a-abae-07c615331338")
 	)
 	(wire
 		(pts
-			(xy 102.87 128.27) (xy 102.87 130.81)
+			(xy 109.22 123.19) (xy 115.57 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "81fa8897-0bcc-41d4-a133-1b39605f16f6")
+		(uuid "679f119b-f62a-4c07-a518-7c446d2fd840")
 	)
 	(wire
 		(pts
-			(xy 102.87 92.71) (xy 102.87 95.25)
+			(xy 123.19 123.19) (xy 125.73 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92562888-d9cb-4bc1-a12d-f80bdf124145")
+		(uuid "7c1f20b2-ae55-4fcf-b33e-b11a688a0708")
 	)
 	(wire
 		(pts
-			(xy 135.89 139.7) (xy 135.89 135.89)
+			(xy 124.46 96.52) (xy 124.46 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "939e6223-1da2-4dfb-b7ab-b07c453994f1")
+		(uuid "7c9f32e2-4543-471f-bc81-6d2053e1df6c")
 	)
 	(wire
 		(pts
-			(xy 134.62 95.25) (xy 137.16 95.25)
+			(xy 142.24 96.52) (xy 142.24 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9cbf7884-f9ef-468c-b48f-941454b24960")
+		(uuid "8a0cb2bf-1d70-4525-9622-205a4eb367c3")
 	)
 	(wire
 		(pts
-			(xy 134.62 130.81) (xy 137.16 130.81)
+			(xy 143.51 88.9) (xy 148.59 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a103405d-14a4-4ac3-af30-c08aa92db371")
+		(uuid "8ae7fd0d-257a-4c71-b794-b7b5412fa1c6")
 	)
 	(wire
 		(pts
-			(xy 114.3 135.89) (xy 119.38 135.89)
+			(xy 109.22 88.9) (xy 115.57 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aab1eecf-e5bc-4c64-b1d7-737b1276c079")
+		(uuid "a9224f34-892d-4721-ae93-de681b8d050f")
 	)
 	(wire
 		(pts
-			(xy 135.89 104.14) (xy 135.89 100.33)
+			(xy 140.97 93.98) (xy 142.24 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b896aca2-e550-420d-a64f-f725209b64d9")
+		(uuid "bcb499b8-ab94-4165-8e23-746821ef797d")
 	)
 	(wire
 		(pts
-			(xy 137.16 95.25) (xy 142.24 95.25)
+			(xy 143.51 76.2) (xy 143.51 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bbe7e77e-1008-4437-9a64-4b55190fb024")
+		(uuid "c0fafe5a-5da4-49de-b734-2ac3689e9342")
 	)
 	(wire
 		(pts
-			(xy 135.89 135.89) (xy 134.62 135.89)
+			(xy 143.51 110.49) (xy 143.51 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cad171cc-0ff9-4653-8dfd-7700db0e8018")
+		(uuid "d60262b9-79f0-4db3-b774-11abde318f04")
 	)
 	(wire
 		(pts
-			(xy 137.16 118.11) (xy 137.16 120.65)
+			(xy 142.24 130.81) (xy 142.24 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e9af7a50-46c5-4ac9-9b46-9718fe11d44c")
+		(uuid "e6879853-c60a-443c-9395-c3ff0737eb92")
 	)
 	(wire
 		(pts
-			(xy 135.89 100.33) (xy 134.62 100.33)
+			(xy 124.46 130.81) (xy 124.46 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eea65538-504d-40ec-bae2-88ff3bf0e5aa")
+		(uuid "e82b2d1b-d670-4e92-8638-1850f787c244")
 	)
 	(wire
 		(pts
-			(xy 137.16 130.81) (xy 137.16 128.27)
+			(xy 143.51 123.19) (xy 148.59 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f20ca3a3-dd8c-49d3-b00e-674c66794f74")
+		(uuid "eb67f670-643d-46aa-9304-f79525b525c5")
 	)
-	(hierarchical_label "DRY_OUT0"
-		(shape output)
-		(at 142.24 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5947acb7-aa23-4a0d-8033-26b0b2366a1c")
-	)
-	(hierarchical_label "DRY1"
+	(hierarchical_label "NPN_Input0"
 		(shape input)
-		(at 114.3 135.89 180)
+		(at 109.22 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "9227c51b-c70b-4c7e-bbd3-69eb193aab7d")
+		(uuid "066b7e3e-752c-4897-be91-2220cb93ca09")
 	)
-	(hierarchical_label "DRY_OUT1"
+	(hierarchical_label "NPN_Output0"
 		(shape output)
+		(at 148.59 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4683a660-a6af-4e01-8b37-dc98f25ca3d1")
+	)
+	(hierarchical_label "NPN_Output1"
+		(shape output)
+		(at 148.59 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5bc12842-763f-4521-9e9d-f4c80a87e709")
+	)
+	(hierarchical_label "NPN_Input1"
+		(shape input)
+		(at 109.22 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8dd98e4f-a4ac-432c-b015-ee8967bc79e1")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 119.38 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "004646e9-4352-40af-b19a-25302ccf572c")
+		(property "Reference" "R19"
+			(at 119.38 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "910"
+			(at 119.38 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 119.38 124.968 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 119.38 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C114670"
+			(at 119.38 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7436843-f654-4a24-a8f7-ed9a8968eecb")
+		)
+		(pin "2"
+			(uuid "7b90e547-b9dd-40a6-b4bb-2123c884d78f")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 143.51 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "051ee258-561f-49a1-833c-c6cdc7ea4217")
+		(property "Reference" "R20"
+			(at 146.05 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "412"
+			(at 146.05 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 145.288 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 143.51 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6347a9f4-fab9-4029-a150-8ca530f54ca6")
+		)
+		(pin "2"
+			(uuid "26ae7f6d-9706-4f08-b913-2050da123edf")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 124.46 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "276f4b2c-3a85-4bbd-a1b3-296343ea7fe5")
+		(property "Reference" "#PWR022"
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PNPIN_GND"
+			(at 124.333 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 124.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8159f47-0818-40bf-b7d7-9b8d399b1bb8")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:LTV-357T")
+		(at 133.35 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29057740-47d6-4e58-a2f2-1bb918752c2e")
+		(property "Reference" "U10"
+			(at 133.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-357TB"
+			(at 133.35 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SO-4_4.4x3.6mm_P2.54mm"
+			(at 128.27 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf"
+			(at 133.35 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SO-4"
+			(at 133.35 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8ecf516a-b026-4141-8725-a377db0746bd")
+		)
+		(pin "1"
+			(uuid "44917c7e-59e1-4fb2-8085-ea8095c010a7")
+		)
+		(pin "2"
+			(uuid "560c3763-fedf-4e3b-aede-39f122bd8b6f")
+		)
+		(pin "4"
+			(uuid "f5d1130c-f063-4a62-bbbe-85b4cc625a4e")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 143.51 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29694778-dac7-4810-9fe0-f986e8fddbb0")
+		(property "Reference" "#PWR044"
+			(at 143.51 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 143.51 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 143.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa0d7366-eacd-4783-87a2-6ce41ace987c")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:LTV-357T")
+		(at 133.35 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "475fc676-6b98-4204-9fc1-3a923f0cb5e4")
+		(property "Reference" "U9"
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-357TB"
+			(at 133.35 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SO-4_4.4x3.6mm_P2.54mm"
+			(at 128.27 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf"
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SO-4"
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c3fe580f-86f1-43c7-9169-0628b454ff72")
+		)
+		(pin "1"
+			(uuid "ff93d603-68bd-4653-b760-cc62d2cb612e")
+		)
+		(pin "2"
+			(uuid "67994852-5df6-418c-b80e-dfbf3635acbe")
+		)
+		(pin "4"
+			(uuid "8724be08-7138-47a7-9b99-4cad8d871795")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "594f678e-f8fb-48a8-ab0d-c5a44a0ed7d2")
+		(property "Reference" "#PWR042"
+			(at 142.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "976364ef-54e9-4605-b806-cc0d7cfc3c43")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 143.51 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7efd78a2-171e-4872-a864-1f6d5c7938c4")
+		(property "Reference" "R21"
+			(at 146.05 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "412"
+			(at 146.05 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 145.288 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 143.51 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01c83767-b741-4b1a-a286-45659d65a127")
+		)
+		(pin "2"
+			(uuid "f1c2f27e-20d6-4c18-8d6a-bb68de4a1ec0")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 124.46 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "961513e2-2725-4679-8c68-b4f9c96adac0")
+		(property "Reference" "#PWR025"
+			(at 124.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PNPIN_GND"
+			(at 124.333 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 124.46 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "517e086a-2326-408c-bf27-c16556d205d6")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 143.51 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a507e94e-52dd-4fa8-97e4-21eb3eb4b32e")
+		(property "Reference" "#PWR045"
+			(at 143.51 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 143.51 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 143.51 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a825d63a-ce82-411c-9b7c-0fdd9b475178")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 142.24 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e61caad3-fe25-4324-bb14-cb3a2db0aa20")
-	)
-	(hierarchical_label "DRY0"
-		(shape input)
-		(at 114.3 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f3413a76-14a1-4182-81d4-a55d28eac864")
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 137.16 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "358a3407-699a-449b-8f94-0b1618813dc5")
-		(property "Reference" "R11"
-			(at 139.7 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "412"
-			(at 139.7 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.938 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 137.16 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3dbcf10-af81-491e-9a53-edc1a9ba2e7b")
-		)
-		(pin "2"
-			(uuid "e6f0e4ab-0026-490b-bdd7-fb918463cffb")
-		)
-		(instances
-			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/2ac137b5-1347-46a5-b780-a606790c1a93"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 137.16 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43d2a63a-8791-4041-a987-4fadb05ac615")
-		(property "Reference" "#PWR035"
-			(at 137.16 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 137.16 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 137.16 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f4150437-3b6f-4d2a-8058-1313413c74c8")
-		)
-		(instances
-			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/2ac137b5-1347-46a5-b780-a606790c1a93"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 137.16 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "515384e8-a0b6-43b5-a391-74963c0a40c4")
-		(property "Reference" "#PWR040"
-			(at 137.16 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 137.16 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 137.16 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff07c4d4-6502-4fdb-8b8c-184ad6761029")
-		)
-		(instances
-			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/2ac137b5-1347-46a5-b780-a606790c1a93"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 102.87 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b957901-846e-4717-87bd-00d657e0689b")
-		(property "Reference" "#PWR036"
-			(at 102.87 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 102.87 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 102.87 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e05993cf-8081-4d96-bdb4-166486b43f9d")
-		)
-		(instances
-			(project ""
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/2ac137b5-1347-46a5-b780-a606790c1a93"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:LTV-357T")
-		(at 127 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8941b3df-0541-422d-8b8d-b7d5eaa80e50")
-		(property "Reference" "U7"
-			(at 127 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-357TB"
-			(at 127 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SO-4_4.4x3.6mm_P2.54mm"
-			(at 121.92 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf"
-			(at 127 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SO-4"
-			(at 127 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "d398a175-b7a8-4eb7-8193-6551d94ee85c")
-		)
-		(pin "1"
-			(uuid "10d552bf-ee51-4f11-bf5e-4a0f6649795a")
-		)
-		(pin "2"
-			(uuid "96c47374-73ea-4071-85c2-dded1a153366")
-		)
-		(pin "4"
-			(uuid "33c9c732-4990-4709-8943-fe582073e77d")
-		)
-		(instances
-			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/2ac137b5-1347-46a5-b780-a606790c1a93"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 137.16 124.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f920f08-0501-490e-b9ec-230fea39de69")
-		(property "Reference" "R13"
-			(at 139.7 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "412"
-			(at 139.7 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.938 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 137.16 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f634ea2-2ed1-47a8-94db-f2cdc200aa4e")
-		)
-		(pin "2"
-			(uuid "b1c645b3-cd8b-4c75-95eb-9652e8d88576")
-		)
-		(instances
-			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/2ac137b5-1347-46a5-b780-a606790c1a93"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 113.03 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b8b309d-8756-4545-9967-c26c9642e73c")
-		(property "Reference" "R10"
-			(at 113.03 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "910"
-			(at 113.03 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 113.03 97.028 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 113.03 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C114670"
-			(at 113.03 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c04e6976-b35b-429a-bf3f-3b69dccb7b9f")
-		)
-		(pin "2"
-			(uuid "06394ec1-ac1a-4f4d-82aa-4c8f2c291a91")
-		)
-		(instances
-			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/2ac137b5-1347-46a5-b780-a606790c1a93"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 113.03 130.81 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1eb8860-1fd9-48cb-9d1a-78190e546557")
-		(property "Reference" "R12"
-			(at 113.03 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "910"
-			(at 113.03 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 113.03 132.588 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 113.03 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C114670"
-			(at 113.03 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68e9a137-5698-4820-ba00-f4d0ba292513")
-		)
-		(pin "2"
-			(uuid "bbc7be1e-06cf-41de-9735-7b0c11de5c3a")
-		)
-		(instances
-			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/2ac137b5-1347-46a5-b780-a606790c1a93"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 135.89 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac77745a-014e-424a-ba49-347c4b6959e4")
-		(property "Reference" "#PWR034"
-			(at 135.89 110.49 0)
+		(uuid "ab25fc56-66ac-42e6-8ba0-5ded43ce904f")
+		(property "Reference" "#PWR043"
+			(at 142.24 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1632,7 +1812,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 109.22 0)
+			(at 142.24 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1640,7 +1820,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 104.14 0)
+			(at 142.24 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1649,7 +1829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 104.14 0)
+			(at 142.24 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1658,7 +1838,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 104.14 0)
+			(at 142.24 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1667,29 +1847,45 @@
 			)
 		)
 		(pin "1"
-			(uuid "3ad1c69d-348e-4cc3-82b3-6bb3132c8356")
+			(uuid "fddf7b60-05cd-4781-b24c-14a1d0613572")
 		)
 		(instances
 			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/2ac137b5-1347-46a5-b780-a606790c1a93"
-					(reference "#PWR034")
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 135.89 139.7 0)
+		(lib_id "Device:R")
+		(at 119.38 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d22b6c30-7b6f-485e-8b21-5fbd33af130f")
-		(property "Reference" "#PWR039"
-			(at 135.89 146.05 0)
+		(uuid "b9eb72a7-4b5f-4f7a-aaa0-f79f65607ff8")
+		(property "Reference" "R18"
+			(at 119.38 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "910"
+			(at 119.38 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 119.38 90.678 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1697,16 +1893,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 135.89 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 139.7 0)
+		(property "Datasheet" "~"
+			(at 119.38 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1714,8 +1902,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 135.89 139.7 0)
+		(property "Description" "Resistor"
+			(at 119.38 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1723,8 +1911,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 139.7 0)
+		(property "LCSC#" "C114670"
+			(at 119.38 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1733,155 +1921,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "6d8a03ec-8f3c-4c11-a5de-0956a777f94f")
-		)
-		(instances
-			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/2ac137b5-1347-46a5-b780-a606790c1a93"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:LTV-357T")
-		(at 127 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dbe8753d-1c00-47d0-ac20-3e2b515fb6b8")
-		(property "Reference" "U8"
-			(at 127 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-357TB"
-			(at 127 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SO-4_4.4x3.6mm_P2.54mm"
-			(at 121.92 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf"
-			(at 127 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SO-4"
-			(at 127 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "38435426-6f92-43f3-90a4-91ce37b64443")
-		)
-		(pin "1"
-			(uuid "45083ab3-5e5b-45be-afd7-325f389ba47d")
+			(uuid "a7b6781c-3d25-46c6-9113-951c426dc6ae")
 		)
 		(pin "2"
-			(uuid "eb92de25-0e4b-4f17-a6be-6581d809be22")
-		)
-		(pin "4"
-			(uuid "51e08f23-f29c-46e0-954f-2816d2bd0228")
+			(uuid "90df33c4-73b3-4d34-96e8-e96756f4d6ec")
 		)
 		(instances
 			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/2ac137b5-1347-46a5-b780-a606790c1a93"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 102.87 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eddf6537-9ca0-4c2b-b65f-3286c168bc02")
-		(property "Reference" "#PWR037"
-			(at 102.87 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 102.87 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 102.87 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8bef2c54-ba7e-4da3-a141-52068c072062")
-		)
-		(instances
-			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/2ac137b5-1347-46a5-b780-a606790c1a93"
-					(reference "#PWR037")
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/194f65ea-cb11-429e-a2d9-3caff410d6b0"
+					(reference "R18")
 					(unit 1)
 				)
 			)

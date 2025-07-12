@@ -658,12 +658,16 @@
       "10V_AIN_INTERFACE"
     ],
     [
-      "87e252e9-5bec-490a-94ca-676f9bdf9b34",
-      "NPN_IN_Mod1"
-    ],
-    [
       "11a8222e-f360-40de-9c02-857da7131a56",
       "VOLTAGE_AOUT_INTERFACE"
+    ],
+    [
+      "194f65ea-cb11-429e-a2d9-3caff410d6b0",
+      "PNP_IN_Mod"
+    ],
+    [
+      "75a26718-4d1a-4f94-8a92-dbb42fb796de",
+      "PNP_OUT_INTERFACE"
     ]
   ],
   "text_variables": {}

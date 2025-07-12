@@ -1101,7 +1101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3caa5aca-b9de-4308-8931-af8754804b91")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR?"
 			(at 100.33 78.74 0)
 			(effects
 				(font
@@ -1110,7 +1110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDPWR"
+		(property "Value" "NPNIN_GND"
 			(at 100.203 77.47 0)
 			(effects
 				(font
@@ -1150,8 +1150,8 @@
 		)
 		(instances
 			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/87e252e9-5bec-490a-94ca-676f9bdf9b34"
-					(reference "#PWR022")
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1167,7 +1167,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54c0ad1a-953e-4579-9b77-ae2c5309bfc3")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR?"
 			(at 118.11 80.01 0)
 			(effects
 				(font
@@ -1216,8 +1216,8 @@
 		)
 		(instances
 			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/87e252e9-5bec-490a-94ca-676f9bdf9b34"
-					(reference "#PWR043")
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1282,10 +1282,6 @@
 		)
 		(instances
 			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/87e252e9-5bec-490a-94ca-676f9bdf9b34"
-					(reference "#PWR046")
-					(unit 1)
-				)
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
 					(reference "#PWR032")
 					(unit 1)
@@ -1311,7 +1307,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "910"
 			(at 95.25 96.52 90)
 			(effects
 				(font
@@ -1363,10 +1359,6 @@
 		)
 		(instances
 			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/87e252e9-5bec-490a-94ca-676f9bdf9b34"
-					(reference "R19")
-					(unit 1)
-				)
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
 					(reference "R7")
 					(unit 1)
@@ -1393,7 +1385,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "412"
 			(at 121.92 60.9599 0)
 			(effects
 				(font
@@ -1437,12 +1429,74 @@
 		)
 		(instances
 			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/87e252e9-5bec-490a-94ca-676f9bdf9b34"
-					(reference "R20")
-					(unit 1)
-				)
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 100.33 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8819379-5eb1-4f2e-a43b-d81fa936d953")
+		(property "Reference" "#PWR030"
+			(at 100.33 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "NPNIN_GND"
+			(at 100.203 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 100.33 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b818417-60ae-4c03-97a7-618270a4b914")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -1458,7 +1512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2fa5c26-bbd3-4db2-b952-f1ca26024f3a")
-		(property "Reference" "U"
+		(property "Reference" "U?"
 			(at 109.22 59.69 0)
 			(effects
 				(font
@@ -1518,8 +1572,8 @@
 		)
 		(instances
 			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/87e252e9-5bec-490a-94ca-676f9bdf9b34"
-					(reference "U9")
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -1535,7 +1589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6525b2a-8a76-4403-bb42-8a032ac5046a")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR?"
 			(at 119.38 57.15 0)
 			(effects
 				(font
@@ -1584,8 +1638,8 @@
 		)
 		(instances
 			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/87e252e9-5bec-490a-94ca-676f9bdf9b34"
-					(reference "#PWR045")
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1650,10 +1704,6 @@
 		)
 		(instances
 			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/87e252e9-5bec-490a-94ca-676f9bdf9b34"
-					(reference "#PWR044")
-					(unit 1)
-				)
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
 					(reference "#PWR031")
 					(unit 1)
@@ -1671,7 +1721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca3c2ca2-e507-4035-af88-cc947bab56e2")
-		(property "Reference" "R"
+		(property "Reference" "R?"
 			(at 95.25 59.69 90)
 			(effects
 				(font
@@ -1679,7 +1729,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "910"
 			(at 95.25 62.23 90)
 			(effects
 				(font
@@ -1731,78 +1781,8 @@
 		)
 		(instances
 			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/87e252e9-5bec-490a-94ca-676f9bdf9b34"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 100.33 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dab0f75d-4a60-46f4-8b9d-1598f8c2ebf6")
-		(property "Reference" "#PWR030"
-			(at 100.33 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 100.203 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 100.33 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4d8aa28-d163-4d21-bdc5-17f240ef5cb8")
-		)
-		(instances
-			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/87e252e9-5bec-490a-94ca-676f9bdf9b34"
-					(reference "#PWR042")
-					(unit 1)
-				)
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
-					(reference "#PWR030")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -1827,7 +1807,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "412"
 			(at 121.92 95.2499 0)
 			(effects
 				(font
@@ -1871,10 +1851,6 @@
 		)
 		(instances
 			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/87e252e9-5bec-490a-94ca-676f9bdf9b34"
-					(reference "R21")
-					(unit 1)
-				)
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
 					(reference "R9")
 					(unit 1)
@@ -1952,10 +1928,6 @@
 		)
 		(instances
 			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/87e252e9-5bec-490a-94ca-676f9bdf9b34"
-					(reference "U10")
-					(unit 1)
-				)
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
 					(reference "U4")
 					(unit 1)
