@@ -1101,7 +1101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3caa5aca-b9de-4308-8931-af8754804b91")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0101"
 			(at 100.33 78.74 0)
 			(effects
 				(font
@@ -1151,7 +1151,7 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
-					(reference "#PWR?")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -1167,7 +1167,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54c0ad1a-953e-4579-9b77-ae2c5309bfc3")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0102"
 			(at 118.11 80.01 0)
 			(effects
 				(font
@@ -1217,7 +1217,7 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
-					(reference "#PWR?")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -1512,7 +1512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2fa5c26-bbd3-4db2-b952-f1ca26024f3a")
-		(property "Reference" "U?"
+		(property "Reference" "U15"
 			(at 109.22 59.69 0)
 			(effects
 				(font
@@ -1573,7 +1573,7 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
-					(reference "U?")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -1589,7 +1589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6525b2a-8a76-4403-bb42-8a032ac5046a")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0103"
 			(at 119.38 57.15 0)
 			(effects
 				(font
@@ -1639,7 +1639,7 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
-					(reference "#PWR?")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -1721,7 +1721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca3c2ca2-e507-4035-af88-cc947bab56e2")
-		(property "Reference" "R?"
+		(property "Reference" "R36"
 			(at 95.25 59.69 90)
 			(effects
 				(font
@@ -1782,7 +1782,7 @@
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/d622ea12-fe2d-4cf1-abd0-941db96d5f54"
-					(reference "R?")
+					(reference "R36")
 					(unit 1)
 				)
 			)
