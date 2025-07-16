@@ -1350,6 +1350,179 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GNDPWR"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDPWR"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDPWR_0_1"
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDPWR_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VCC"
 			(power)
 			(pin_numbers
@@ -1488,23 +1661,33 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 63.5) (xy 193.04 63.5)
+			(xy 96.52 54.61) (xy 99.06 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0104fc3c-8a99-4895-b5cc-1aed813219a2")
+		(uuid "10910ba0-47b9-4604-b87a-e9569d25ce8d")
 	)
 	(wire
 		(pts
-			(xy 102.87 57.15) (xy 114.3 57.15)
+			(xy 96.52 64.77) (xy 99.06 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b44acbb-1a47-4aed-891b-0edd563ca9c9")
+		(uuid "1868de76-c9b1-4eb9-94bc-89e56b0027a5")
+	)
+	(wire
+		(pts
+			(xy 181.61 92.71) (xy 193.04 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2175c94b-5098-4ba7-bf16-aefdc2dd210c")
 	)
 	(wire
 		(pts
@@ -1518,7 +1701,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 97.79) (xy 193.04 97.79)
+			(xy 181.61 102.87) (xy 193.04 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1528,13 +1711,33 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 67.31) (xy 114.3 67.31)
+			(xy 96.52 62.23) (xy 114.3 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39fa4e1c-ff66-44c9-bc81-d2785d072871")
+	)
+	(wire
+		(pts
+			(xy 96.52 72.39) (xy 114.3 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3ad9b961-6d07-4650-a2e1-1462b5199d27")
+	)
+	(wire
+		(pts
+			(xy 190.5 90.17) (xy 193.04 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c9d1e47-ad0a-4f26-a02c-36d6f1e0749f")
 	)
 	(wire
 		(pts
@@ -1548,7 +1751,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 52.07) (xy 114.3 52.07)
+			(xy 96.52 52.07) (xy 114.3 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1588,27 +1791,17 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 90.17) (xy 193.04 90.17)
+			(xy 190.5 100.33) (xy 193.04 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d83118c-e336-4946-af1c-59845d347e7f")
+		(uuid "80952afb-54a6-4c5a-b8b8-6f5b7f6645cd")
 	)
 	(wire
 		(pts
-			(xy 181.61 92.71) (xy 193.04 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f763e44-5676-471e-9121-a6a79fcd1527")
-	)
-	(wire
-		(pts
-			(xy 102.87 80.01) (xy 114.3 80.01)
+			(xy 96.52 85.09) (xy 114.3 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1618,7 +1811,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 64.77) (xy 114.3 64.77)
+			(xy 96.52 69.85) (xy 114.3 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1638,13 +1831,23 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 69.85) (xy 114.3 69.85)
+			(xy 96.52 74.93) (xy 114.3 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "914a522a-5601-4d28-9250-b07df7a5ba1b")
+	)
+	(wire
+		(pts
+			(xy 96.52 59.69) (xy 114.3 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "971957dd-727a-461b-bb92-f7fc2ac3e490")
 	)
 	(wire
 		(pts
@@ -1668,23 +1871,23 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 59.69) (xy 114.3 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8d5bd15-2f05-488e-a8a6-cb1826c3fd99")
-	)
-	(wire
-		(pts
-			(xy 102.87 87.63) (xy 105.41 87.63)
+			(xy 96.52 95.25) (xy 99.06 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ac6626c6-b388-4b59-8744-0f078568f3eb")
+	)
+	(wire
+		(pts
+			(xy 96.52 87.63) (xy 99.06 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af22f126-c9b5-4ae7-a53d-86e1e1af825f")
 	)
 	(wire
 		(pts
@@ -1728,7 +1931,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 77.47) (xy 114.3 77.47)
+			(xy 96.52 82.55) (xy 114.3 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1768,7 +1971,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 85.09) (xy 114.3 85.09)
+			(xy 96.52 92.71) (xy 114.3 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1778,13 +1981,23 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 72.39) (xy 105.41 72.39)
+			(xy 96.52 77.47) (xy 99.06 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ec0e7fb0-aa8f-4a0d-ab8e-bee509cbb9e7")
+	)
+	(wire
+		(pts
+			(xy 181.61 95.25) (xy 193.04 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec700187-3bb2-4ad0-bf11-09c78615ae37")
 	)
 	(wire
 		(pts
@@ -1798,7 +2011,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 100.33) (xy 193.04 100.33)
+			(xy 181.61 105.41) (xy 193.04 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1808,7 +2021,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 49.53) (xy 114.3 49.53)
+			(xy 96.52 49.53) (xy 114.3 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1817,7 +2030,7 @@
 		(uuid "fb6c3526-2b47-494b-aa34-ddc2d69f4855")
 	)
 	(image
-		(at 71.12 68.58)
+		(at 50.8 68.58)
 		(scale 0.0851178)
 		(uuid "cb73582a-4475-4201-bf0e-77f2321c9ac9")
 		(data "iVBORw0KGgoAAAANSUhEUgAABsYAAAOfCAIAAAD0JeHrAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"
@@ -13055,75 +13268,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 97.79 49.53 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "23cb04ea-b6d7-4be3-99d4-656445034b53")
-		(property "Reference" "J1"
-			(at 97.79 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 97.79 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 97.79 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "113ee9fa-d7b2-4e53-979d-8bbd350a5a6d")
-		)
-		(pin "1"
-			(uuid "251deede-d7fb-4a26-8f7b-f8f3876f3c20")
-		)
-		(instances
-			(project ""
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 190.5 66.04 270)
 		(unit 1)
@@ -13185,6 +13329,73 @@
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
 					(reference "#PWR5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49ae1290-d441-4781-812e-02c9d55b12d3")
+		(property "Reference" "#PWR067"
+			(at 105.41 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44ff0d0e-f6bd-4ef7-b29b-af445c521b07")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -13259,6 +13470,79 @@
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
 					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 198.12 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f1df735-16c2-424b-bdb9-4260a852edf2")
+		(property "Reference" "J9"
+			(at 197.104 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x03"
+			(at 200.66 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 198.12 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b3151c7-6613-4e12-8894-e823c17cb151")
+		)
+		(pin "1"
+			(uuid "38a2b586-78cb-45f1-90f4-6f0446d5a9cf")
+		)
+		(pin "3"
+			(uuid "d73bb8d4-1ec9-4d68-812d-ec00a9aa0a7c")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -13348,7 +13632,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 97.79 85.09 0)
+		(at 91.44 92.71 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13357,7 +13641,7 @@
 		(dnp no)
 		(uuid "574ebf57-d562-4a3b-af00-ed4227ad6dfc")
 		(property "Reference" "J5"
-			(at 97.79 82.55 0)
+			(at 91.44 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13365,7 +13649,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 97.79 81.28 0)
+			(at 91.44 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13374,7 +13658,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 85.09 0)
+			(at 91.44 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13383,7 +13667,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 85.09 0)
+			(at 91.44 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13392,7 +13676,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 97.79 85.09 0)
+			(at 91.44 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13416,86 +13700,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 97.79 57.15 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "633bfdb2-b362-4639-9b7f-d8a3e5810443")
-		(property "Reference" "J2"
-			(at 97.79 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 97.79 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 97.79 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0bd5e5d5-a9ec-486e-aee6-46eeebd0b23f")
-		)
-		(pin "1"
-			(uuid "7f330441-e303-4a02-a67b-7f2b3f5cc7d3")
-		)
-		(instances
-			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 105.41 87.63 90)
+		(lib_id "power:GNDPWR")
+		(at 99.06 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "972653f8-a29d-42fd-8daa-0161d6fa6dd7")
-		(property "Reference" "#PWR3"
-			(at 111.76 87.63 0)
+		(uuid "7a7bd987-3f00-4f14-b0ef-9d9c2540debb")
+		(property "Reference" "#PWR065"
+			(at 104.14 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13503,8 +13718,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 109.22 87.6299 90)
+		(property "Value" "NPNIN_GND"
+			(at 102.87 54.7369 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13513,7 +13728,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 87.63 0)
+			(at 100.33 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13522,7 +13737,148 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 87.63 0)
+			(at 100.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 99.06 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f75087d8-369f-44ad-82ad-cb55707fd981")
+		)
+		(instances
+			(project ""
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 91.44 52.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86a3f6d5-3cfd-4fb7-b5cf-54dc0e44c537")
+		(property "Reference" "J1"
+			(at 92.456 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x03"
+			(at 88.9 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 91.44 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0a0922c6-1017-423b-8ce3-cf278e833dd8")
+		)
+		(pin "1"
+			(uuid "aed62517-30fa-45d2-b773-945225aae54f")
+		)
+		(pin "3"
+			(uuid "49d10e5d-e2ad-422f-a13e-3f56d4adf2c5")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "972653f8-a29d-42fd-8daa-0161d6fa6dd7")
+		(property "Reference" "#PWR3"
+			(at 105.41 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13531,7 +13887,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 87.63 0)
+			(at 99.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13553,7 +13909,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 97.79 67.31 0)
+		(at 91.44 72.39 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13562,7 +13918,7 @@
 		(dnp no)
 		(uuid "a1c24f85-a8ba-4552-9324-32bd4a843b50")
 		(property "Reference" "J3"
-			(at 97.79 62.484 0)
+			(at 91.44 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13570,7 +13926,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x04"
-			(at 97.79 60.96 0)
+			(at 91.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13579,7 +13935,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 67.31 0)
+			(at 91.44 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13588,7 +13944,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 67.31 0)
+			(at 91.44 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13597,7 +13953,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 97.79 67.31 0)
+			(at 91.44 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13621,6 +13977,140 @@
 			(project ""
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 99.06 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5c1bfbc-0854-4d5f-9f25-f31b0c82af3d")
+		(property "Reference" "#PWR066"
+			(at 104.14 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PNPIN_GND"
+			(at 102.87 64.8969 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 99.06 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "407eac6e-ad3d-495b-bbe6-d5a4ea22014b")
+		)
+		(instances
+			(project ""
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 190.5 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b05d27f0-5f63-418f-b2ad-1135d66d6671")
+		(property "Reference" "#PWR068"
+			(at 194.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 186.69 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 190.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78a4d08d-5410-44cb-a0b1-b00932ec0268")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -13693,33 +14183,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 198.12 90.17 0)
+		(lib_id "power:GND")
+		(at 190.5 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c9b3549b-d3dd-4098-bc94-f0fb0a0b2469")
-		(property "Reference" "J9"
-			(at 198.12 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 198.12 86.36 0)
+		(fields_autoplaced yes)
+		(uuid "c79a4f33-aa84-4c3c-95e3-ef040e40be5c")
+		(property "Reference" "#PWR069"
+			(at 184.15 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 90.17 0)
+			(at 190.5 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13727,8 +14219,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 198.12 90.17 0)
+		(property "Datasheet" ""
+			(at 190.5 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13736,58 +14228,58 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 198.12 90.17 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "52ab7a7b-fb36-474f-be1b-d4b378de91bd")
 		)
 		(pin "1"
-			(uuid "82b6980a-2930-46cb-971b-6986c2a6cc5b")
+			(uuid "50bd8982-ba74-439e-85e8-e70770a3c88e")
 		)
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
-					(reference "J9")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 198.12 97.79 0)
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 91.44 62.23 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cc815ee8-5d6c-4465-9593-c9a8064a8dda")
-		(property "Reference" "J10"
-			(at 198.12 95.25 0)
+		(uuid "cc284215-26d2-464d-9d28-fdf11e6212f8")
+		(property "Reference" "J2"
+			(at 92.456 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 198.12 93.98 0)
+		(property "Value" "Screw_Terminal_01x03"
+			(at 88.9 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 97.79 0)
+			(at 91.44 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13796,7 +14288,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 97.79 0)
+			(at 91.44 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13804,8 +14296,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 198.12 97.79 0)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 91.44 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13814,15 +14306,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "b9241e14-3bb1-4cff-af6f-77fc0debc27a")
+			(uuid "857605c0-299c-44a1-a3d6-792b64afebcf")
 		)
 		(pin "1"
-			(uuid "8317da39-43d2-40bb-a3d5-0783ade646a3")
+			(uuid "01962b8b-d90a-4b54-9401-dc0ba86060f3")
+		)
+		(pin "3"
+			(uuid "42967d73-3902-4a48-99e2-a5167c9aa7c2")
 		)
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
-					(reference "J10")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -13896,77 +14391,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 97.79 77.47 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eca64d68-1956-4399-933d-9046dab50c68")
-		(property "Reference" "J4"
-			(at 97.79 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 97.79 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 97.79 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c521a0a0-485e-4309-83d3-bd518e5e5fe4")
-		)
-		(pin "1"
-			(uuid "824307ec-bc83-4f29-9ded-a0bcb3338691")
-		)
-		(instances
-			(project "NIVARA"
-				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 105.41 72.39 90)
+		(at 99.06 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13975,7 +14401,7 @@
 		(fields_autoplaced yes)
 		(uuid "ecc413b2-781e-420f-b418-d27dba05abb0")
 		(property "Reference" "#PWR2"
-			(at 111.76 72.39 0)
+			(at 105.41 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13984,7 +14410,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 72.3899 90)
+			(at 102.87 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13993,7 +14419,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 72.39 0)
+			(at 99.06 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14002,7 +14428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 72.39 0)
+			(at 99.06 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14011,7 +14437,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 72.39 0)
+			(at 99.06 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14174,6 +14600,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 198.12 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0cb2b5d-dbe2-4a6d-9e99-05456ee9efa6")
+		(property "Reference" "J8"
+			(at 197.104 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x03"
+			(at 200.66 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 198.12 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "48b54f31-a56d-4057-b47e-26dbdb9c7633")
+		)
+		(pin "1"
+			(uuid "e7050634-6a30-4fd2-8fd4-1cdd23680a2b")
+		)
+		(pin "3"
+			(uuid "0fc6f005-af40-4846-b657-462276ad9753")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Antenna")
 		(at 158.75 30.48 0)
 		(unit 1)
@@ -14240,9 +14739,83 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 91.44 85.09 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fea608da-cf7e-45e1-81d2-70d8f87aea28")
+		(property "Reference" "J4"
+			(at 92.456 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x03"
+			(at 88.9 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 91.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "292cc4e2-f081-4008-91eb-039c96791f57")
+		)
+		(pin "1"
+			(uuid "b1a8a797-df6d-4485-9f14-35b9d381512b")
+		)
+		(pin "3"
+			(uuid "7b05390a-9a00-4f05-b556-c31a00b8752d")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 114.3 45.72)
-		(size 67.31 58.42)
+		(size 67.31 63.5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -14266,7 +14839,7 @@
 			)
 		)
 		(property "Sheetfile" "NIVARA_BOARD.kicad_sch"
-			(at 114.3 104.7246 0)
+			(at 114.3 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14275,7 +14848,7 @@
 			)
 		)
 		(pin "+10V_AINPUT" input
-			(at 114.3 64.77 180)
+			(at 114.3 69.85 180)
 			(uuid "ee25ee57-9f3b-47cc-b2eb-75f551004e7f")
 			(effects
 				(font
@@ -14285,7 +14858,7 @@
 			)
 		)
 		(pin "+32V_AINPUT" input
-			(at 114.3 67.31 180)
+			(at 114.3 72.39 180)
 			(uuid "34ed22e1-8b1f-4323-a985-ec3f4563ae50")
 			(effects
 				(font
@@ -14295,7 +14868,7 @@
 			)
 		)
 		(pin "mA_AINPUT" input
-			(at 114.3 69.85 180)
+			(at 114.3 74.93 180)
 			(uuid "3b92145f-053f-4136-80b1-281b68a7d221")
 			(effects
 				(font
@@ -14325,7 +14898,7 @@
 			)
 		)
 		(pin "PNP_DINPUT_0" input
-			(at 114.3 57.15 180)
+			(at 114.3 59.69 180)
 			(uuid "e6a666eb-a2b5-45ba-9959-63cd97b8879f")
 			(effects
 				(font
@@ -14335,7 +14908,7 @@
 			)
 		)
 		(pin "PNP_DINPUT_1" input
-			(at 114.3 59.69 180)
+			(at 114.3 62.23 180)
 			(uuid "28d27680-35df-462f-b1c3-5fe1bc82c006")
 			(effects
 				(font
@@ -14435,7 +15008,7 @@
 			)
 		)
 		(pin "~{RUN}{slash}STOP" input
-			(at 114.3 85.09 180)
+			(at 114.3 92.71 180)
 			(uuid "f1d88823-1ae0-48b5-bcfc-c32573d0e2d3")
 			(effects
 				(font
@@ -14445,7 +15018,7 @@
 			)
 		)
 		(pin "NPN_DOUTPUT_0" output
-			(at 181.61 90.17 0)
+			(at 181.61 92.71 0)
 			(uuid "74a40274-6739-4ac6-9b2d-ea50569f93c5")
 			(effects
 				(font
@@ -14455,7 +15028,7 @@
 			)
 		)
 		(pin "NPN_DOUTPUT_1" output
-			(at 181.61 92.71 0)
+			(at 181.61 95.25 0)
 			(uuid "f4124587-84ae-489b-b3ef-7420d1e1de62")
 			(effects
 				(font
@@ -14465,7 +15038,7 @@
 			)
 		)
 		(pin "PNP_DOUTPUT_0" output
-			(at 181.61 97.79 0)
+			(at 181.61 102.87 0)
 			(uuid "9524d1dc-b73a-4815-ae92-8ac2f8837084")
 			(effects
 				(font
@@ -14475,7 +15048,7 @@
 			)
 		)
 		(pin "PNP_DOUTPUT_1" output
-			(at 181.61 100.33 0)
+			(at 181.61 105.41 0)
 			(uuid "d42fbd2c-fa66-464c-b93d-c55fecd44b16")
 			(effects
 				(font
@@ -14485,7 +15058,7 @@
 			)
 		)
 		(pin "DRY_DINPUT_0" input
-			(at 114.3 77.47 180)
+			(at 114.3 82.55 180)
 			(uuid "366ad6d3-c5d8-4808-a049-2407b8c8d831")
 			(effects
 				(font
@@ -14495,7 +15068,7 @@
 			)
 		)
 		(pin "DRY_DINPUT_1" input
-			(at 114.3 80.01 180)
+			(at 114.3 85.09 180)
 			(uuid "478dee4e-88b6-44dc-b850-303129078e2e")
 			(effects
 				(font
@@ -14507,16 +15080,6 @@
 		(pin "mA_AOUTPUT+" output
 			(at 181.61 60.96 0)
 			(uuid "785f30a1-b06d-4e81-88f5-3f8b55ea01e0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "mA_AOUTPUT-" output
-			(at 181.61 63.5 0)
-			(uuid "570ad829-5a97-4fc4-8bf7-bad0b9e1b94d")
 			(effects
 				(font
 					(size 1.27 1.27)
