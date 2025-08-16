@@ -493,7 +493,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -863,7 +863,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 104.14) (xy 146.05 104.14)
+			(xy 140.97 104.14) (xy 147.32 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1023,7 +1023,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 104.14) (xy 156.21 104.14)
+			(xy 154.94 104.14) (xy 156.21 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1228,7 +1228,7 @@
 		(pin "7"
 			(uuid "a05c47a9-a9aa-4793-8a2c-ab43d38c0f5c")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "4e6d7521-c851-4f33-8c82-e2293a2e9d88")
 		)
 		(pin "8"
@@ -1459,7 +1459,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 149.86 104.14 90)
+		(at 151.13 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1467,7 +1467,7 @@
 		(dnp no)
 		(uuid "b6a894aa-f515-4d38-a765-726d545de0a9")
 		(property "Reference" "C7"
-			(at 149.86 111.76 90)
+			(at 151.13 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1475,7 +1475,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 149.86 109.22 90)
+			(at 151.13 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1483,7 +1483,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 153.67 103.1748 0)
+			(at 154.94 103.1748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1492,7 +1492,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 104.14 0)
+			(at 151.13 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1501,7 +1501,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 149.86 104.14 0)
+			(at 151.13 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
