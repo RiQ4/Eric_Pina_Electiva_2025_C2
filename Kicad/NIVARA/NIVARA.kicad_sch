@@ -1787,7 +1787,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "7944358a-f625-48f3-bd09-ea3de6d6da2a")
+		(uuid "760e2435-b0fc-42d5-b3b0-dafab8ebb0a6")
 	)
 	(wire
 		(pts
@@ -1851,13 +1851,13 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 74.93) (xy 193.04 74.93)
+			(xy 181.61 77.47) (xy 193.04 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ab9f7c9-9231-42e3-aba0-9ab6c8c9fb04")
+		(uuid "982389f1-cd1d-4e21-8e78-1950475a3d7b")
 	)
 	(wire
 		(pts
@@ -1868,6 +1868,16 @@
 			(type default)
 		)
 		(uuid "9e6e3a47-64f1-45d8-9563-79890ec494af")
+	)
+	(wire
+		(pts
+			(xy 181.61 74.93) (xy 193.04 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6c8f9eb-ada9-4bc9-87e4-7e877e977ca9")
 	)
 	(wire
 		(pts
@@ -1921,16 +1931,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 77.47) (xy 193.04 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dab8a0d6-4987-4aa5-bbea-e4bba3dfd1ac")
-	)
-	(wire
-		(pts
 			(xy 96.52 82.55) (xy 114.3 82.55)
 		)
 		(stroke
@@ -1948,16 +1948,6 @@
 			(type default)
 		)
 		(uuid "e2eebae6-d333-40e6-88f8-2ae6c5492b30")
-	)
-	(wire
-		(pts
-			(xy 181.61 82.55) (xy 193.04 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3b24c87-4175-4191-8746-68ec0edbec4a")
 	)
 	(wire
 		(pts
@@ -1998,6 +1988,16 @@
 			(type default)
 		)
 		(uuid "ec700187-3bb2-4ad0-bf11-09c78615ae37")
+	)
+	(wire
+		(pts
+			(xy 181.61 82.55) (xy 193.04 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f23ef02f-237d-4693-8eab-ddb1185a0cad")
 	)
 	(wire
 		(pts
@@ -14918,7 +14918,7 @@
 			)
 		)
 		(pin "RL1_COM" passive
-			(at 181.61 77.47 0)
+			(at 181.61 74.93 0)
 			(uuid "38c931f3-a687-4b19-9297-ce3c3afbf104")
 			(effects
 				(font
@@ -14928,7 +14928,7 @@
 			)
 		)
 		(pin "RL1_OUTPUT_NC" output
-			(at 181.61 74.93 0)
+			(at 181.61 77.47 0)
 			(uuid "289c1319-db26-46c2-8787-866b8b75c6dc")
 			(effects
 				(font
@@ -14948,7 +14948,7 @@
 			)
 		)
 		(pin "RL2_COM" passive
-			(at 181.61 85.09 0)
+			(at 181.61 82.55 0)
 			(uuid "bbe1693f-9ebc-464b-a361-ff16bc7f0cd2")
 			(effects
 				(font
@@ -14958,7 +14958,7 @@
 			)
 		)
 		(pin "RL2_OUTPUT_NC" output
-			(at 181.61 82.55 0)
+			(at 181.61 85.09 0)
 			(uuid "ddea0b29-dc89-41c1-b6fb-1888f90d9be6")
 			(effects
 				(font

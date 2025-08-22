@@ -183,6 +183,686 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Riqi_Parts:TQ2-24V"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at -5.08 10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TQ2-24V"
+				(at -5.08 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "TQ2-24V:RELAY_TQ2-24V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Panasonic Electric Works"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "5.4 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TQ2-24V/Panasonic/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "201911"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-24V/Panasonic/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TQ2-24V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Relay Low Profile 2 Form C 200 mW (Nom.) Gold-Clad Silver | Panasonic Electronic Components TQ2-24V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Panasonic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TQ2-24V_0_0"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -5.08 -10.16)
+					(end 5.08 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 6.096) (xy -3.302 6.096)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 -5.842) (xy -3.048 -5.842)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 6.604) (xy -3.81 5.588)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0.635) (xy -2.54 0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -0.635) (xy -3.81 0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -2.54 0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.635) (xy -1.27 0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.635) (xy -3.81 -0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.635) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy -1.27 -0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.635) (xy -2.54 -0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 7.62) (xy 2.286 6.604)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 7.62) (xy 5.08 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 2.54) (xy 2.286 3.556)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 2.286 -3.556)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -7.62) (xy 2.286 -6.604)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.667 6.858) (xy 1.905 6.858) (xy 2.286 6.096) (xy 2.667 6.858)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.667 3.302) (xy 1.905 3.302) (xy 2.286 4.064) (xy 2.667 3.302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.667 -3.302) (xy 1.905 -3.302) (xy 2.286 -4.064) (xy 2.667 -3.302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.667 -6.858) (xy 1.905 -6.858) (xy 2.286 -6.096) (xy 2.667 -6.858)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 5.08) (xy 1.778 6.223)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 -5.08) (xy 1.778 -3.937)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 3.556 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 3.556 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 7.62 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -7.62 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -410,6 +1090,92 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 195.58 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "082c094f-f64e-4cd6-ab95-95c2a83dd868")
+	)
+	(junction
+		(at 143.51 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "098c5b8a-b6db-4a29-99e7-00eb4071b0aa")
+	)
+	(junction
+		(at 196.85 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "352b100f-1523-4e87-8b62-ac5de4218af8")
+	)
+	(junction
+		(at 144.78 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97d72c29-b922-4012-9cb9-f47b065dc1a5")
+	)
+	(junction
+		(at 146.05 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bc865ab-cd0c-44f6-b0c1-ea8d49fab2a6")
+	)
+	(junction
+		(at 198.12 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8ddffb6-3680-456a-9698-571f80020e9a")
+	)
+	(wire
+		(pts
+			(xy 198.12 95.25) (xy 199.39 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00e3c9bf-2659-48a6-8ad1-a76f1d2a3967")
+	)
+	(wire
+		(pts
+			(xy 172.72 102.87) (xy 172.72 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c80aa7-773a-4716-a3db-dee6b047ed1a")
+	)
+	(wire
+		(pts
+			(xy 193.04 92.71) (xy 195.58 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0556c376-1a00-44d8-b87d-8710ba55ddaa")
+	)
+	(wire
+		(pts
+			(xy 195.58 102.87) (xy 195.58 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b85bf56-4cd0-43ba-9107-6644302c68dc")
+	)
+	(wire
+		(pts
+			(xy 140.97 92.71) (xy 143.51 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20db60a6-0ad1-49b3-924f-c2ed5e3dd138")
+	)
 	(wire
 		(pts
 			(xy 109.22 123.19) (xy 109.22 125.73)
@@ -422,7 +1188,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 80.01) (xy 120.65 90.17)
+			(xy 120.65 80.01) (xy 120.65 92.71)
 		)
 		(stroke
 			(width 0)
@@ -432,7 +1198,17 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 105.41) (xy 120.65 110.49)
+			(xy 144.78 100.33) (xy 144.78 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f23d7cc-bfe8-4af6-9b2b-358e1f17676c")
+	)
+	(wire
+		(pts
+			(xy 120.65 102.87) (xy 120.65 110.49)
 		)
 		(stroke
 			(width 0)
@@ -442,67 +1218,117 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 83.82) (xy 128.27 90.17)
+			(xy 193.04 102.87) (xy 195.58 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ccdb662-a05a-4bc1-8988-c898078b42a5")
+		(uuid "5b489ce2-d8b4-46ac-ab84-6156257b5d07")
 	)
 	(wire
 		(pts
-			(xy 135.89 83.82) (xy 128.27 83.82)
+			(xy 143.51 102.87) (xy 143.51 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d122ad0-6142-42fd-8726-1b79787d337e")
+		(uuid "5c4cddb6-1f07-4369-9a9b-67f3a02c5d3f")
 	)
 	(wire
 		(pts
-			(xy 118.11 115.57) (xy 162.56 115.57)
+			(xy 140.97 102.87) (xy 143.51 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d716c9c-0c71-4f6f-943c-1f15aad6eaf0")
+		(uuid "5d030b07-4595-4539-a144-143a5d1c33d2")
 	)
 	(wire
 		(pts
-			(xy 175.26 90.17) (xy 177.8 90.17)
+			(xy 198.12 105.41) (xy 198.12 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "76c9cf05-ba94-4241-a6da-d683f589dd3f")
+		(uuid "6a69bf8b-1764-4d1f-8e91-187b050d3f98")
 	)
 	(wire
 		(pts
-			(xy 133.35 87.63) (xy 133.35 90.17)
+			(xy 144.78 90.17) (xy 147.32 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c26bcf7-9b18-480a-b5ac-6407190a3498")
+		(uuid "6c028ed2-2d3d-4d8b-8fd1-56f7d7216176")
 	)
 	(wire
 		(pts
-			(xy 170.18 85.09) (xy 170.18 91.44)
+			(xy 193.04 100.33) (xy 196.85 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91ea4add-298c-4de7-9ef3-84cd5950595a")
+		(uuid "7042e3ba-0053-4944-8b94-6392f229f572")
 	)
 	(wire
 		(pts
-			(xy 130.81 105.41) (xy 130.81 110.49)
+			(xy 196.85 100.33) (xy 196.85 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81370bac-b6a3-4743-a219-519ffa972694")
+	)
+	(wire
+		(pts
+			(xy 193.04 95.25) (xy 198.12 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8280afe4-dbc0-4a9d-b348-fa9ac0f1042d")
+	)
+	(wire
+		(pts
+			(xy 195.58 110.49) (xy 200.66 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c75cd07-3e89-48b2-81c5-2fe224e61d3f")
+	)
+	(wire
+		(pts
+			(xy 140.97 90.17) (xy 144.78 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f604999-25ad-4d63-b96c-6709ba1701ff")
+	)
+	(wire
+		(pts
+			(xy 196.85 90.17) (xy 199.39 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94c36721-376a-4c54-a468-b447089dc27e")
+	)
+	(wire
+		(pts
+			(xy 143.51 92.71) (xy 143.51 102.87)
 		)
 		(stroke
 			(width 0)
@@ -512,13 +1338,33 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 111.76) (xy 172.72 111.76)
+			(xy 195.58 92.71) (xy 195.58 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "996ec7ce-9544-469f-ae16-998d45bc189b")
+		(uuid "9cdd9b63-ac31-4595-b120-93d3bf1e5001")
+	)
+	(wire
+		(pts
+			(xy 193.04 90.17) (xy 196.85 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ceb97a4-91f9-486f-8471-6f50bd606a4d")
+	)
+	(wire
+		(pts
+			(xy 146.05 95.25) (xy 147.32 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d8a760-9943-4d0a-9f1d-2d52c52b2bb1")
 	)
 	(wire
 		(pts
@@ -532,43 +1378,53 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 106.68) (xy 162.56 115.57)
+			(xy 140.97 95.25) (xy 146.05 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2cff636-ccbb-4d0e-8bf8-bcd61be111fe")
+		(uuid "b3fde39c-7ffd-4497-9471-804ec1ff2ab3")
 	)
 	(wire
 		(pts
-			(xy 177.8 85.09) (xy 170.18 85.09)
+			(xy 146.05 105.41) (xy 146.05 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9ee7a24-845a-40a8-9e4a-131c79dc7a34")
+		(uuid "b586b2ba-3913-4efd-a112-77db93e4abbb")
 	)
 	(wire
 		(pts
-			(xy 175.26 91.44) (xy 175.26 90.17)
+			(xy 140.97 105.41) (xy 146.05 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d84b7d54-4ef9-4983-b224-e06b388a0f31")
+		(uuid "ca8c9fa0-9fa7-4503-9fe7-0a687f3b1016")
 	)
 	(wire
 		(pts
-			(xy 135.89 87.63) (xy 133.35 87.63)
+			(xy 140.97 100.33) (xy 144.78 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d8ada883-5eee-4a8a-87c6-33a18811cbe9")
+		(uuid "d2d3f8ff-e304-4101-8e6d-7fdca46e299b")
+	)
+	(wire
+		(pts
+			(xy 193.04 105.41) (xy 198.12 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5c295fd-b140-4085-bf4b-982f8d0fa9dd")
 	)
 	(wire
 		(pts
@@ -582,13 +1438,23 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 110.49) (xy 135.89 110.49)
+			(xy 143.51 110.49) (xy 148.59 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dab7979b-444e-4727-a8f7-399736f98ddc")
+	)
+	(wire
+		(pts
+			(xy 172.72 80.01) (xy 172.72 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dee7ebc4-d3d7-4762-ba54-405f61c13acb")
 	)
 	(wire
 		(pts
@@ -602,13 +1468,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 80.01) (xy 162.56 91.44)
+			(xy 118.11 115.57) (xy 172.72 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed2478fe-790f-456b-84ae-0959a180fb4d")
+		(uuid "e962f09a-9774-42a6-be9e-88583a8a484e")
 	)
 	(wire
 		(pts
@@ -620,18 +1486,8 @@
 		)
 		(uuid "fd6174fb-6223-4c2b-911b-aad01b6894ee")
 	)
-	(wire
-		(pts
-			(xy 172.72 111.76) (xy 172.72 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff86b017-b40e-4aaa-8ea1-9e3eb2440ee2")
-	)
 	(image
-		(at 226.06 100.33)
+		(at 199.39 53.34)
 		(scale 0.166759)
 		(uuid "6f763263-269c-4529-88c4-f4593472360b")
 		(data "iVBORw0KGgoAAAANSUhEUgAABKgAAAIBCAIAAADifBBuAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"
@@ -1368,7 +2224,18 @@
 	)
 	(hierarchical_label "RL2_OUTPUT_NC"
 		(shape output)
-		(at 135.89 83.82 0)
+		(at 199.39 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "122b307f-da37-41f8-9d0d-78c3c1065377")
+	)
+	(hierarchical_label "RL1_OUTPUT_NC"
+		(shape output)
+		(at 147.32 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1376,17 +2243,6 @@
 			(justify left)
 		)
 		(uuid "136d0900-9b90-4551-8207-94253f00894f")
-	)
-	(hierarchical_label "RL1_COM"
-		(shape passive)
-		(at 177.8 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2638d623-5eec-49a7-96ce-abc063f0b2d7")
 	)
 	(hierarchical_label "RL2_EN"
 		(shape input)
@@ -1399,20 +2255,31 @@
 		)
 		(uuid "3e898b01-38f7-473b-ad57-85697ebc3821")
 	)
-	(hierarchical_label "RL1_OUTPUT_NO"
-		(shape output)
-		(at 177.8 90.17 0)
+	(hierarchical_label "RL2_COM"
+		(shape passive)
+		(at 200.66 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "59b3596f-6833-4967-9719-de3fb6b6d32b")
+		(uuid "937ee2bb-b096-4400-a166-db2073758490")
 	)
-	(hierarchical_label "RL2_COM"
+	(hierarchical_label "RL2_OUTPUT_NO"
+		(shape output)
+		(at 199.39 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0f7292a-e559-49c5-b0f1-4ebb037183b6")
+	)
+	(hierarchical_label "RL1_COM"
 		(shape passive)
-		(at 135.89 110.49 0)
+		(at 148.59 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1420,17 +2287,6 @@
 			(justify left)
 		)
 		(uuid "bca84ce4-18dc-44a6-8825-736c79c71c42")
-	)
-	(hierarchical_label "RL1_OUTPUT_NC"
-		(shape output)
-		(at 177.8 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c0cdb961-51b2-4c39-8ab1-807eecbcef55")
 	)
 	(hierarchical_label "RL1_EN"
 		(shape input)
@@ -1443,9 +2299,9 @@
 		)
 		(uuid "e598eb98-68c7-425a-9a03-cdc3890e510b")
 	)
-	(hierarchical_label "RL2_OUTPUT_NO"
+	(hierarchical_label "RL1_OUTPUT_NO"
 		(shape output)
-		(at 135.89 87.63 0)
+		(at 147.32 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1456,16 +2312,16 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 162.56 80.01 0)
+		(at 172.72 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "26174cbc-efa2-48e2-b6f2-045d9ecd6cb3")
-		(property "Reference" "#PWR021"
-			(at 162.56 83.82 0)
+		(uuid "384e2a9d-c249-4e17-9585-b392bcf6217f")
+		(property "Reference" "#PWR070"
+			(at 172.72 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1474,7 +2330,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 162.56 74.93 0)
+			(at 172.72 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1482,7 +2338,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 80.01 0)
+			(at 172.72 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1491,7 +2347,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 80.01 0)
+			(at 172.72 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1500,7 +2356,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 162.56 80.01 0)
+			(at 172.72 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1509,12 +2365,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "21586879-cc36-48f9-8551-9e7ba463ff20")
+			(uuid "d34945e6-22b8-4247-be23-8bca06bf7bee")
 		)
 		(instances
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/86b88fb6-54fe-4cca-9b3c-121214f029ac"
-					(reference "#PWR021")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -1581,6 +2437,215 @@
 			(project "NIVARA"
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/86b88fb6-54fe-4cca-9b3c-121214f029ac"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Riqi_Parts:TQ2-24V")
+		(at 182.88 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "802b4536-0e6a-4229-a0fb-1605223b933c")
+		(property "Reference" "K2"
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TQ2-24V"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Riqi_Parts:TQ2=24V"
+			(at 182.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic Electric Works"
+			(at 182.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.4 mm"
+			(at 182.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 182.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 182.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-24V/Panasonic/view-part/?ref=eda"
+			(at 182.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 182.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "201911"
+			(at 182.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-24V/Panasonic/view-part/?ref=snap"
+			(at 182.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TQ2-24V"
+			(at 182.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Relay Low Profile 2 Form C 200 mW (Nom.) Gold-Clad Silver | Panasonic Electronic Components TQ2-24V"
+			(at 182.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 182.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 182.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "ecf114b3-ecb0-4c53-985e-c09b389aa70e")
+		)
+		(pin "1"
+			(uuid "1f3c03e0-0c31-4cc0-960e-13d81f78e81a")
+		)
+		(pin "3"
+			(uuid "53c5adb0-43e0-4642-97af-68569d94f556")
+		)
+		(pin "4"
+			(uuid "6248160c-3085-4684-a301-5cf0c18b4680")
+		)
+		(pin "2"
+			(uuid "4df0a050-5d84-482d-af2e-b46dbee023a0")
+		)
+		(pin "10"
+			(uuid "251c5ee9-839a-48ad-9e44-22cb2ff1f01a")
+		)
+		(pin "9"
+			(uuid "d77307df-ed2e-4b9a-a69b-84bbb4be2d8b")
+		)
+		(pin "7"
+			(uuid "c8037e44-cd99-4547-99d3-ef1fa8181090")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/86b88fb6-54fe-4cca-9b3c-121214f029ac"
+					(reference "K2")
 					(unit 1)
 				)
 			)
@@ -1804,6 +2869,215 @@
 			(project ""
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/86b88fb6-54fe-4cca-9b3c-121214f029ac"
 					(reference "#PWR18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Riqi_Parts:TQ2-24V")
+		(at 130.81 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d99df966-27bc-4ff9-82d9-1fd080ccf4f5")
+		(property "Reference" "K1"
+			(at 130.81 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TQ2-24V"
+			(at 130.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Riqi_Parts:TQ2=24V"
+			(at 130.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic Electric Works"
+			(at 130.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.4 mm"
+			(at 130.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 130.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 130.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-24V/Panasonic/view-part/?ref=eda"
+			(at 130.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 130.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "201911"
+			(at 130.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-24V/Panasonic/view-part/?ref=snap"
+			(at 130.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TQ2-24V"
+			(at 130.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Relay Low Profile 2 Form C 200 mW (Nom.) Gold-Clad Silver | Panasonic Electronic Components TQ2-24V"
+			(at 130.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 130.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 130.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "cde182bd-ed56-4ec4-92f5-00ddce8ecd46")
+		)
+		(pin "1"
+			(uuid "d15b419d-375a-4a1e-829f-c1b9c00399af")
+		)
+		(pin "3"
+			(uuid "45489ca7-f052-4924-a83d-87a32c0b9419")
+		)
+		(pin "4"
+			(uuid "9b22fdd1-06c6-46f6-943d-7314572b1e91")
+		)
+		(pin "2"
+			(uuid "d290512c-c893-4674-90e1-d10b254dcd0e")
+		)
+		(pin "10"
+			(uuid "a4d845e6-2967-47f6-8c8e-bede7ebe7caa")
+		)
+		(pin "9"
+			(uuid "ad15ffd4-e539-4668-9c08-af3c0133bfdb")
+		)
+		(pin "7"
+			(uuid "43240b94-7051-4983-ac59-34cef38c0f95")
+		)
+		(instances
+			(project ""
+				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/86b88fb6-54fe-4cca-9b3c-121214f029ac"
+					(reference "K1")
 					(unit 1)
 				)
 			)
