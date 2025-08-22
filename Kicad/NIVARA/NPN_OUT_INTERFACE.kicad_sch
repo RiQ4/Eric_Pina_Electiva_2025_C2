@@ -934,7 +934,7 @@
 		)
 		(uuid "fa52a5de-ecc3-405d-98c3-06f63bad6c94")
 	)
-	(hierarchical_label "NPN_OUT0"
+	(hierarchical_label "NPN_OUT1"
 		(shape output)
 		(at 201.93 82.55 0)
 		(effects
